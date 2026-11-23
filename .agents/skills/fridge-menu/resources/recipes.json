@@ -1,0 +1,4179 @@
+{
+  "schema_version": 2,
+  "pantry_defaults": {
+    "basic_seasonings": [
+      "油",
+      "盐",
+      "生抽",
+      "老抽",
+      "料酒",
+      "白糖",
+      "淀粉",
+      "白醋",
+      "香醋",
+      "黑胡椒粉",
+      "花椒粉"
+    ],
+    "optional_aromatics": [
+      "葱",
+      "小葱",
+      "姜",
+      "蒜",
+      "小米辣",
+      "干辣椒",
+      "香菜"
+    ]
+  },
+  "recipes": [
+    {
+      "id": "r001",
+      "name": "番茄炒蛋",
+      "category": "蛋类/快手菜",
+      "prep_time_min": 10,
+      "difficulty": "极简",
+      "base_servings": 2,
+      "main_ingredients": [
+        {
+          "name": "西红柿",
+          "amount": 2,
+          "unit": "个",
+          "grams": 300
+        },
+        {
+          "name": "鸡蛋",
+          "amount": 3,
+          "unit": "个",
+          "grams": 150
+        }
+      ],
+      "optional_aromatics": [
+        "小葱"
+      ],
+      "basic_seasonings": [
+        "油",
+        "盐",
+        "白糖"
+      ],
+      "special_seasonings": [],
+      "allergens": [
+        "蛋"
+      ],
+      "diet": {
+        "vegetarian": "yes",
+        "vegan": "no",
+        "pork": "free",
+        "beef": "free",
+        "alcohol": "free"
+      },
+      "spicy": {
+        "level": 0,
+        "optional": false
+      },
+      "cookware": [
+        "炒锅"
+      ],
+      "tags": [
+        "快手",
+        "零失败",
+        "下饭",
+        "一人食友好"
+      ],
+      "steps": [
+        "西红柿切块；鸡蛋打散，加少许盐和1勺清水搅匀（更嫩）。",
+        "热锅倒油，中大火倒入蛋液滑炒至定型嫩熟，盛出备用。",
+        "锅留底油，下西红柿中火翻炒1-2分钟至出汁，加少许盐和半勺白糖提鲜。",
+        "倒回炒好的鸡蛋翻拌裹汁，撒葱花即可出锅。"
+      ]
+    },
+    {
+      "id": "r002",
+      "name": "青椒炒牛肉",
+      "category": "牛肉类",
+      "prep_time_min": 15,
+      "difficulty": "简单",
+      "base_servings": 2,
+      "main_ingredients": [
+        {
+          "name": "牛肉",
+          "amount": 250,
+          "unit": "克",
+          "grams": 250
+        },
+        {
+          "name": "青椒",
+          "amount": 2,
+          "unit": "个",
+          "grams": 150
+        }
+      ],
+      "optional_aromatics": [
+        "蒜",
+        "姜",
+        "小米辣"
+      ],
+      "basic_seasonings": [
+        "油",
+        "盐",
+        "生抽",
+        "料酒",
+        "淀粉",
+        "老抽"
+      ],
+      "special_seasonings": [],
+      "allergens": [
+        "大豆",
+        "麸质",
+        "酒精"
+      ],
+      "diet": {
+        "vegetarian": "no",
+        "vegan": "no",
+        "pork": "free",
+        "beef": "contains",
+        "alcohol": "contains"
+      },
+      "spicy": {
+        "level": 0,
+        "optional": true
+      },
+      "cookware": [
+        "炒锅"
+      ],
+      "tags": [
+        "下饭",
+        "高蛋白",
+        "快手"
+      ],
+      "steps": [
+        "牛肉逆纹切薄片，加1勺生抽、半勺老抽、1勺料酒、1勺淀粉和1勺油抓匀腌10分钟；青椒切丝/块。",
+        "热锅宽油，大火下牛肉快速滑炒至变色（约30秒）立刻盛出。",
+        "底油爆香蒜片，下青椒大火炒至断生微虎皮，加少许盐。",
+        "倒回牛肉和1勺生抽，大火快速翻炒15秒出锅。"
+      ]
+    },
+    {
+      "id": "r003",
+      "name": "番茄滑牛肉",
+      "category": "牛肉类",
+      "prep_time_min": 18,
+      "difficulty": "简单",
+      "base_servings": 2,
+      "main_ingredients": [
+        {
+          "name": "牛肉",
+          "amount": 250,
+          "unit": "克",
+          "grams": 250
+        },
+        {
+          "name": "西红柿",
+          "amount": 2,
+          "unit": "个",
+          "grams": 300
+        }
+      ],
+      "optional_aromatics": [
+        "葱",
+        "姜",
+        "蒜"
+      ],
+      "basic_seasonings": [
+        "油",
+        "盐",
+        "生抽",
+        "料酒",
+        "淀粉",
+        "白糖"
+      ],
+      "special_seasonings": [],
+      "allergens": [
+        "大豆",
+        "麸质",
+        "酒精"
+      ],
+      "diet": {
+        "vegetarian": "no",
+        "vegan": "no",
+        "pork": "free",
+        "beef": "contains",
+        "alcohol": "contains"
+      },
+      "spicy": {
+        "level": 0,
+        "optional": false
+      },
+      "cookware": [
+        "炒锅"
+      ],
+      "tags": [
+        "下饭",
+        "酸甜开胃",
+        "高蛋白"
+      ],
+      "steps": [
+        "牛肉切薄片，加1勺生抽、1勺料酒、1勺淀粉和少许油抓匀腌10分钟；西红柿切小块。",
+        "热锅少油爆香葱姜蒜，下西红柿中火炒出浓汁，加半碗清水煮开。",
+        "转小火，将牛肉片逐片铺入番茄汤中，定型后再轻推散。",
+        "加适量盐、半勺白糖和1勺生抽，煮1分钟至牛肉熟透即可。"
+      ]
+    },
+    {
+      "id": "r004",
+      "name": "滑蛋牛肉",
+      "category": "牛肉类",
+      "prep_time_min": 15,
+      "difficulty": "简单",
+      "base_servings": 2,
+      "main_ingredients": [
+        {
+          "name": "牛肉",
+          "amount": 200,
+          "unit": "克",
+          "grams": 200
+        },
+        {
+          "name": "鸡蛋",
+          "amount": 4,
+          "unit": "个",
+          "grams": 200
+        }
+      ],
+      "optional_aromatics": [
+        "小葱"
+      ],
+      "basic_seasonings": [
+        "油",
+        "盐",
+        "生抽",
+        "淀粉",
+        "白糖"
+      ],
+      "special_seasonings": [],
+      "allergens": [
+        "蛋",
+        "大豆",
+        "麸质"
+      ],
+      "diet": {
+        "vegetarian": "no",
+        "vegan": "no",
+        "pork": "free",
+        "beef": "contains",
+        "alcohol": "free"
+      },
+      "spicy": {
+        "level": 0,
+        "optional": false
+      },
+      "cookware": [
+        "炒锅"
+      ],
+      "tags": [
+        "嫩滑",
+        "高蛋白",
+        "快手",
+        "少油"
+      ],
+      "steps": [
+        "牛肉切薄片，用1勺生抽、半勺淀粉、1勺油腌10分钟；鸡蛋打散加少许盐和2勺水淀粉。",
+        "热锅冷油，中火将牛肉滑炒至八分熟盛出，稍微晾凉。",
+        "把牛肉拌入蛋液中，撒入葱花。",
+        "锅烧热倒油转中小火，倒入牛肉蛋液，用铲子由外向内轻推至半凝固关火，利用余温焖10秒。"
+      ]
+    },
+    {
+      "id": "r005",
+      "name": "土豆炖牛肉",
+      "category": "牛肉类",
+      "prep_time_min": 45,
+      "difficulty": "中等",
+      "base_servings": 2,
+      "main_ingredients": [
+        {
+          "name": "牛腩/牛肉",
+          "amount": 350,
+          "unit": "克",
+          "grams": 350
+        },
+        {
+          "name": "土豆",
+          "amount": 2,
+          "unit": "个",
+          "grams": 300
+        },
+        {
+          "name": "胡萝卜",
+          "amount": 1,
+          "unit": "根",
+          "grams": 150
+        }
+      ],
+      "optional_aromatics": [
+        "葱",
+        "姜",
+        "蒜"
+      ],
+      "basic_seasonings": [
+        "油",
+        "盐",
+        "生抽",
+        "老抽",
+        "料酒",
+        "白糖"
+      ],
+      "special_seasonings": [
+        "八角/香叶（可选）"
+      ],
+      "allergens": [
+        "大豆",
+        "麸质",
+        "酒精"
+      ],
+      "diet": {
+        "vegetarian": "no",
+        "vegan": "no",
+        "pork": "free",
+        "beef": "contains",
+        "alcohol": "contains"
+      },
+      "spicy": {
+        "level": 0,
+        "optional": false
+      },
+      "cookware": [
+        "炒锅",
+        "汤锅",
+        "电饭煲"
+      ],
+      "tags": [
+        "硬菜",
+        "下饭",
+        "耐炖"
+      ],
+      "steps": [
+        "牛肉切块冷水下锅加料酒焯水捞出；土豆、胡萝卜切滚刀块。",
+        "热锅少油炒香葱姜蒜，下牛肉翻炒微焦，加2勺生抽、1勺老抽、少许白糖翻匀。",
+        "加没过牛肉的热水，大火烧开转小火炖30分钟。",
+        "放入土豆和胡萝卜再炖15分钟至软烂，加盐大火收汁。"
+      ]
+    },
+    {
+      "id": "r006",
+      "name": "黑椒洋葱炒牛肉",
+      "category": "牛肉类",
+      "prep_time_min": 15,
+      "difficulty": "简单",
+      "base_servings": 2,
+      "main_ingredients": [
+        {
+          "name": "牛肉",
+          "amount": 250,
+          "unit": "克",
+          "grams": 250
+        },
+        {
+          "name": "洋葱",
+          "amount": 1,
+          "unit": "个",
+          "grams": 200
+        }
+      ],
+      "optional_aromatics": [
+        "蒜"
+      ],
+      "basic_seasonings": [
+        "油",
+        "盐",
+        "生抽",
+        "老抽",
+        "淀粉",
+        "黑胡椒粉"
+      ],
+      "special_seasonings": [
+        "蚝油（可选）"
+      ],
+      "allergens": [
+        "大豆",
+        "麸质",
+        "贝类"
+      ],
+      "diet": {
+        "vegetarian": "no",
+        "vegan": "no",
+        "pork": "free",
+        "beef": "contains",
+        "alcohol": "free"
+      },
+      "spicy": {
+        "level": 0,
+        "optional": false
+      },
+      "cookware": [
+        "炒锅"
+      ],
+      "tags": [
+        "下饭",
+        "快手",
+        "西式风味"
+      ],
+      "steps": [
+        "牛肉切片，加生抽、老抽、淀粉、黑胡椒粉和1勺油腌制10分钟；洋葱切丝。",
+        "热锅倒油，大火快速滑炒牛肉至变色盛出。",
+        "底油炒香蒜末和洋葱丝至微透明软香。",
+        "倒回牛肉，加1勺生抽和现磨黑胡椒翻炒均匀出锅。"
+      ]
+    },
+    {
+      "id": "r007",
+      "name": "青椒肉丝",
+      "category": "猪肉类",
+      "prep_time_min": 15,
+      "difficulty": "简单",
+      "base_servings": 2,
+      "main_ingredients": [
+        {
+          "name": "猪瘦肉/里脊",
+          "amount": 200,
+          "unit": "克",
+          "grams": 200
+        },
+        {
+          "name": "青椒",
+          "amount": 3,
+          "unit": "个",
+          "grams": 200
+        }
+      ],
+      "optional_aromatics": [
+        "蒜",
+        "姜"
+      ],
+      "basic_seasonings": [
+        "油",
+        "盐",
+        "生抽",
+        "料酒",
+        "淀粉",
+        "老抽"
+      ],
+      "special_seasonings": [],
+      "allergens": [
+        "大豆",
+        "麸质",
+        "酒精"
+      ],
+      "diet": {
+        "vegetarian": "no",
+        "vegan": "no",
+        "pork": "contains",
+        "beef": "free",
+        "alcohol": "contains"
+      },
+      "spicy": {
+        "level": 0,
+        "optional": false
+      },
+      "cookware": [
+        "炒锅"
+      ],
+      "tags": [
+        "国民家常",
+        "下饭",
+        "快手"
+      ],
+      "steps": [
+        "猪肉切丝，加1勺生抽、半勺料酒、1勺淀粉抓匀腌10分钟；青椒去籽切丝。",
+        "热锅倒油，下肉丝滑炒至变白盛出。",
+        "底油爆香蒜末，下青椒丝大火翻炒至断生，加少许盐。",
+        "倒回肉丝，淋半勺生抽和少许老抽提色，大火翻匀出锅。"
+      ]
+    },
+    {
+      "id": "r008",
+      "name": "鱼香肉丝",
+      "category": "猪肉类",
+      "prep_time_min": 20,
+      "difficulty": "中等",
+      "base_servings": 2,
+      "main_ingredients": [
+        {
+          "name": "猪瘦肉",
+          "amount": 200,
+          "unit": "克",
+          "grams": 200
+        },
+        {
+          "name": "胡萝卜",
+          "amount": 0.5,
+          "unit": "根",
+          "grams": 80
+        },
+        {
+          "name": "青椒",
+          "amount": 1,
+          "unit": "个",
+          "grams": 80
+        },
+        {
+          "name": "木耳（泡发）",
+          "amount": 50,
+          "unit": "克",
+          "grams": 50
+        }
+      ],
+      "optional_aromatics": [
+        "葱",
+        "姜",
+        "蒜"
+      ],
+      "basic_seasonings": [
+        "油",
+        "盐",
+        "生抽",
+        "香醋",
+        "白糖",
+        "淀粉",
+        "料酒"
+      ],
+      "special_seasonings": [
+        "郫县豆瓣酱"
+      ],
+      "allergens": [
+        "大豆",
+        "麸质",
+        "酒精"
+      ],
+      "diet": {
+        "vegetarian": "no",
+        "vegan": "no",
+        "pork": "contains",
+        "beef": "free",
+        "alcohol": "contains"
+      },
+      "spicy": {
+        "level": 1,
+        "optional": false
+      },
+      "cookware": [
+        "炒锅"
+      ],
+      "tags": [
+        "下饭",
+        "酸甜微辣",
+        "经典"
+      ],
+      "steps": [
+        "肉切丝加料酒、淀粉腌制；胡萝卜、青椒、木耳切丝；调鱼香汁（2勺香醋+2勺白糖+1勺生抽+半勺淀粉+3勺水）。",
+        "热锅滑炒肉丝变色盛出。",
+        "底油炒香葱姜蒜和1勺豆瓣酱出红油，下配菜丝炒至断生。",
+        "倒回肉丝并淋入鱼香汁，大火翻炒至汤汁浓稠包裹即可。"
+      ]
+    },
+    {
+      "id": "r009",
+      "name": "蒜苔炒肉",
+      "category": "猪肉类",
+      "prep_time_min": 15,
+      "difficulty": "简单",
+      "base_servings": 2,
+      "main_ingredients": [
+        {
+          "name": "猪肉（五花或瘦肉）",
+          "amount": 200,
+          "unit": "克",
+          "grams": 200
+        },
+        {
+          "name": "蒜苔",
+          "amount": 250,
+          "unit": "克",
+          "grams": 250
+        }
+      ],
+      "optional_aromatics": [
+        "蒜",
+        "小米辣"
+      ],
+      "basic_seasonings": [
+        "油",
+        "盐",
+        "生抽",
+        "老抽",
+        "料酒"
+      ],
+      "special_seasonings": [],
+      "allergens": [
+        "大豆",
+        "麸质",
+        "酒精"
+      ],
+      "diet": {
+        "vegetarian": "no",
+        "vegan": "no",
+        "pork": "contains",
+        "beef": "free",
+        "alcohol": "contains"
+      },
+      "spicy": {
+        "level": 0,
+        "optional": true
+      },
+      "cookware": [
+        "炒锅"
+      ],
+      "tags": [
+        "下饭",
+        "快手",
+        "家常"
+      ],
+      "steps": [
+        "蒜苔洗净切段；猪肉切片或切丝。",
+        "热锅少油，下肉片中小火煸炒出油并变色，加1勺料酒和半勺老抽炒匀。",
+        "倒入蒜苔段和小米辣，大火翻炒2-3分钟至蒜苔表皮微皱断生。",
+        "加1勺生抽和适量盐，翻炒均匀出锅。"
+      ]
+    },
+    {
+      "id": "r010",
+      "name": "肉末茄子",
+      "category": "猪肉类",
+      "prep_time_min": 20,
+      "difficulty": "简单",
+      "base_servings": 2,
+      "main_ingredients": [
+        {
+          "name": "茄子",
+          "amount": 2,
+          "unit": "根",
+          "grams": 350
+        },
+        {
+          "name": "猪肉末",
+          "amount": 150,
+          "unit": "克",
+          "grams": 150
+        }
+      ],
+      "optional_aromatics": [
+        "蒜",
+        "小葱",
+        "小米辣"
+      ],
+      "basic_seasonings": [
+        "油",
+        "盐",
+        "生抽",
+        "老抽",
+        "白糖",
+        "淀粉"
+      ],
+      "special_seasonings": [
+        "豆瓣酱或蚝油"
+      ],
+      "allergens": [
+        "大豆",
+        "麸质",
+        "贝类"
+      ],
+      "diet": {
+        "vegetarian": "no",
+        "vegan": "no",
+        "pork": "contains",
+        "beef": "free",
+        "alcohol": "free"
+      },
+      "spicy": {
+        "level": 1,
+        "optional": true
+      },
+      "cookware": [
+        "炒锅"
+      ],
+      "tags": [
+        "下饭神菜",
+        "经典"
+      ],
+      "steps": [
+        "茄子切长条，撒1勺盐抓匀腌10分钟杀出水分，挤干（可省油）。",
+        "热锅少油炒香蒜末和肉末，加1勺豆瓣酱（或蚝油）炒出香味。",
+        "倒入挤干的茄子条中火翻炒至软熟。",
+        "加1勺生抽、半勺老抽、少许白糖和半碗水淀粉勾芡收汁，撒葱花。"
+      ]
+    },
+    {
+      "id": "r011",
+      "name": "豆角炒肉",
+      "category": "猪肉类",
+      "prep_time_min": 20,
+      "difficulty": "简单",
+      "base_servings": 2,
+      "main_ingredients": [
+        {
+          "name": "四季豆/长豆角",
+          "amount": 300,
+          "unit": "克",
+          "grams": 300
+        },
+        {
+          "name": "猪肉",
+          "amount": 150,
+          "unit": "克",
+          "grams": 150
+        }
+      ],
+      "optional_aromatics": [
+        "蒜",
+        "干辣椒"
+      ],
+      "basic_seasonings": [
+        "油",
+        "盐",
+        "生抽",
+        "老抽",
+        "料酒"
+      ],
+      "special_seasonings": [],
+      "allergens": [
+        "大豆",
+        "麸质",
+        "酒精"
+      ],
+      "diet": {
+        "vegetarian": "no",
+        "vegan": "no",
+        "pork": "contains",
+        "beef": "free",
+        "alcohol": "contains"
+      },
+      "spicy": {
+        "level": 0,
+        "optional": true
+      },
+      "cookware": [
+        "炒锅"
+      ],
+      "tags": [
+        "下饭",
+        "家常"
+      ],
+      "steps": [
+        "豆角摘去老筋切段（务必炒熟）；猪肉切片。",
+        "热锅倒油下肉片炒至变色，加1勺料酒、半勺老抽盛出或拨到一边。",
+        "下蒜末和豆角中火煸炒3-4分钟至豆角变绿微皱。",
+        "加半小碗水盖盖焖2分钟确保熟透，倒回肉片加生抽和盐大火收干。"
+      ]
+    },
+    {
+      "id": "r012",
+      "name": "可乐鸡翅",
+      "category": "鸡肉类",
+      "prep_time_min": 25,
+      "difficulty": "极简",
+      "base_servings": 2,
+      "main_ingredients": [
+        {
+          "name": "鸡中翅",
+          "amount": 8,
+          "unit": "个",
+          "grams": 320
+        }
+      ],
+      "optional_aromatics": [
+        "姜",
+        "小葱"
+      ],
+      "basic_seasonings": [
+        "油",
+        "料酒",
+        "生抽",
+        "老抽"
+      ],
+      "special_seasonings": [
+        "可乐（1罐约330ml）"
+      ],
+      "allergens": [
+        "大豆",
+        "麸质",
+        "酒精"
+      ],
+      "diet": {
+        "vegetarian": "no",
+        "vegan": "no",
+        "pork": "free",
+        "beef": "free",
+        "alcohol": "contains"
+      },
+      "spicy": {
+        "level": 0,
+        "optional": false
+      },
+      "cookware": [
+        "炒锅"
+      ],
+      "tags": [
+        "零失败",
+        "新手友好",
+        "甜口",
+        "硬菜"
+      ],
+      "steps": [
+        "鸡翅两面划两刀，冷水下锅加姜片和1勺料酒焯水捞出沥干。",
+        "热锅少油，下鸡翅中火煎至两面金黄。",
+        "倒入1罐可乐（没过鸡翅），加2勺生抽、半勺老抽。",
+        "大火烧开转中小火炖15分钟，最后大火收浓汤汁，撒葱花出锅。"
+      ]
+    },
+    {
+      "id": "r013",
+      "name": "宫保鸡丁",
+      "category": "鸡肉类",
+      "prep_time_min": 20,
+      "difficulty": "中等",
+      "base_servings": 2,
+      "main_ingredients": [
+        {
+          "name": "鸡胸肉/鸡腿肉",
+          "amount": 250,
+          "unit": "克",
+          "grams": 250
+        },
+        {
+          "name": "黄瓜",
+          "amount": 1,
+          "unit": "根",
+          "grams": 150
+        },
+        {
+          "name": "胡萝卜",
+          "amount": 0.5,
+          "unit": "根",
+          "grams": 80
+        }
+      ],
+      "optional_aromatics": [
+        "葱",
+        "姜",
+        "蒜",
+        "干辣椒"
+      ],
+      "basic_seasonings": [
+        "油",
+        "盐",
+        "生抽",
+        "香醋",
+        "白糖",
+        "料酒",
+        "淀粉"
+      ],
+      "special_seasonings": [
+        "熟花生米（可选）"
+      ],
+      "allergens": [
+        "大豆",
+        "麸质",
+        "花生",
+        "酒精"
+      ],
+      "diet": {
+        "vegetarian": "no",
+        "vegan": "no",
+        "pork": "free",
+        "beef": "free",
+        "alcohol": "contains"
+      },
+      "spicy": {
+        "level": 1,
+        "optional": true
+      },
+      "cookware": [
+        "炒锅"
+      ],
+      "tags": [
+        "下饭",
+        "经典",
+        "酸甜微辣"
+      ],
+      "steps": [
+        "鸡肉切丁加料酒、生抽、淀粉腌10分钟；黄瓜、胡萝卜切丁；调宫保汁（2勺香醋+2勺白糖+2勺生抽+1勺淀粉+2勺水）。",
+        "热锅滑炒鸡丁变白盛出。",
+        "底油小火炒香干辣椒和葱姜蒜，下胡萝卜丁炒1分钟，再下黄瓜丁。",
+        "倒回鸡丁和宫保汁大火翻匀至汁亮，有花生米此时拌入出锅。"
+      ]
+    },
+    {
+      "id": "r014",
+      "name": "照烧鸡腿饭",
+      "category": "鸡肉类/主食",
+      "prep_time_min": 20,
+      "difficulty": "极简",
+      "base_servings": 1,
+      "main_ingredients": [
+        {
+          "name": "鸡腿（去骨鸡排）",
+          "amount": 1,
+          "unit": "个",
+          "grams": 200
+        },
+        {
+          "name": "米饭",
+          "amount": 1,
+          "unit": "碗",
+          "grams": 200
+        }
+      ],
+      "optional_aromatics": [
+        "姜"
+      ],
+      "basic_seasonings": [
+        "油",
+        "生抽",
+        "老抽",
+        "料酒",
+        "白糖"
+      ],
+      "special_seasonings": [
+        "蜂蜜（可选）"
+      ],
+      "allergens": [
+        "大豆",
+        "麸质",
+        "酒精"
+      ],
+      "diet": {
+        "vegetarian": "no",
+        "vegan": "no",
+        "pork": "free",
+        "beef": "free",
+        "alcohol": "contains"
+      },
+      "spicy": {
+        "level": 0,
+        "optional": false
+      },
+      "cookware": [
+        "炒锅"
+      ],
+      "tags": [
+        "一人食",
+        "便当神器",
+        "快手",
+        "甜咸口"
+      ],
+      "steps": [
+        "鸡腿去骨用刀背拍松，调照烧汁（2勺生抽+1勺料酒+半勺老抽+1勺白糖/蜂蜜+3勺清水）。",
+        "平底锅不放油或少油，鸡皮朝下中小火煎3-4分钟出油金黄后翻面再煎3分钟。",
+        "倒入照烧汁，加盖中小火焖煮3分钟，再开盖收汁至浓稠。",
+        "鸡排切条铺在热米饭上，淋上锅中照烧汁即可。"
+      ]
+    },
+    {
+      "id": "r015",
+      "name": "青椒炒鸡丁",
+      "category": "鸡肉类",
+      "prep_time_min": 15,
+      "difficulty": "简单",
+      "base_servings": 2,
+      "main_ingredients": [
+        {
+          "name": "鸡胸肉",
+          "amount": 250,
+          "unit": "克",
+          "grams": 250
+        },
+        {
+          "name": "青椒",
+          "amount": 2,
+          "unit": "个",
+          "grams": 150
+        }
+      ],
+      "optional_aromatics": [
+        "蒜",
+        "姜"
+      ],
+      "basic_seasonings": [
+        "油",
+        "盐",
+        "生抽",
+        "料酒",
+        "淀粉",
+        "黑胡椒粉"
+      ],
+      "special_seasonings": [],
+      "allergens": [
+        "大豆",
+        "麸质",
+        "酒精"
+      ],
+      "diet": {
+        "vegetarian": "no",
+        "vegan": "no",
+        "pork": "free",
+        "beef": "free",
+        "alcohol": "contains"
+      },
+      "spicy": {
+        "level": 0,
+        "optional": false
+      },
+      "cookware": [
+        "炒锅"
+      ],
+      "tags": [
+        "减脂",
+        "高蛋白",
+        "快手"
+      ],
+      "steps": [
+        "鸡胸肉切丁，加1勺生抽、1勺料酒、1勺淀粉、少许黑胡椒腌10分钟；青椒切块。",
+        "热锅少油，下鸡丁中大火翻炒至变白熟透盛出。",
+        "底油爆香蒜末，下青椒翻炒至断生，加少许盐。",
+        "倒回鸡丁，淋少许生抽翻匀出锅。"
+      ]
+    },
+    {
+      "id": "r016",
+      "name": "咖喱土豆鸡肉饭",
+      "category": "鸡肉类/一锅出",
+      "prep_time_min": 25,
+      "difficulty": "极简",
+      "base_servings": 2,
+      "main_ingredients": [
+        {
+          "name": "鸡腿肉/鸡胸肉",
+          "amount": 250,
+          "unit": "克",
+          "grams": 250
+        },
+        {
+          "name": "土豆",
+          "amount": 1,
+          "unit": "个",
+          "grams": 200
+        },
+        {
+          "name": "胡萝卜",
+          "amount": 1,
+          "unit": "根",
+          "grams": 120
+        },
+        {
+          "name": "洋葱",
+          "amount": 0.5,
+          "unit": "个",
+          "grams": 100
+        }
+      ],
+      "optional_aromatics": [],
+      "basic_seasonings": [
+        "油",
+        "料酒"
+      ],
+      "special_seasonings": [
+        "咖喱块（2-3小块）"
+      ],
+      "allergens": [
+        "麸质",
+        "酒精"
+      ],
+      "diet": {
+        "vegetarian": "no",
+        "vegan": "no",
+        "pork": "free",
+        "beef": "free",
+        "alcohol": "contains"
+      },
+      "spicy": {
+        "level": 0,
+        "optional": false
+      },
+      "cookware": [
+        "炒锅",
+        "汤锅",
+        "电饭煲"
+      ],
+      "tags": [
+        "一锅出",
+        "零失败",
+        "下饭",
+        "带饭"
+      ],
+      "steps": [
+        "鸡肉切块加料酒抓匀；土豆、胡萝卜切滚刀块，洋葱切块。",
+        "热锅少油炒香洋葱，下鸡肉炒至变白，再下土豆和胡萝卜翻炒1分钟。",
+        "加没过食材的清水，大火烧开转中小火煮12分钟至土豆软烂。",
+        "关火放入咖喱块搅融，再开小火煮2-3分钟至汤汁浓稠，浇在米饭上。"
+      ]
+    },
+    {
+      "id": "r017",
+      "name": "虾仁滑蛋",
+      "category": "海鲜蛋类",
+      "prep_time_min": 12,
+      "difficulty": "极简",
+      "base_servings": 2,
+      "main_ingredients": [
+        {
+          "name": "虾仁",
+          "amount": 150,
+          "unit": "克",
+          "grams": 150
+        },
+        {
+          "name": "鸡蛋",
+          "amount": 4,
+          "unit": "个",
+          "grams": 200
+        }
+      ],
+      "optional_aromatics": [
+        "小葱"
+      ],
+      "basic_seasonings": [
+        "油",
+        "盐",
+        "料酒",
+        "黑胡椒粉",
+        "淀粉"
+      ],
+      "special_seasonings": [],
+      "allergens": [
+        "蛋",
+        "麸质",
+        "甲壳类",
+        "酒精"
+      ],
+      "diet": {
+        "vegetarian": "no",
+        "vegan": "no",
+        "pork": "free",
+        "beef": "free",
+        "alcohol": "contains"
+      },
+      "spicy": {
+        "level": 0,
+        "optional": false
+      },
+      "cookware": [
+        "炒锅"
+      ],
+      "tags": [
+        "快手",
+        "高蛋白",
+        "清淡",
+        "减脂"
+      ],
+      "steps": [
+        "虾仁加少许盐、料酒、黑胡椒抓匀腌5分钟；鸡蛋打散加少许盐和2勺水淀粉。",
+        "热锅少油，下虾仁炒至变红卷曲，盛出拌入蛋液并撒葱花。",
+        "锅烧热倒油转中小火，倒入虾仁蛋液。",
+        "用铲子轻推至蛋液八分凝固关火，余温焖熟出锅。"
+      ]
+    },
+    {
+      "id": "r018",
+      "name": "白灼基围虾",
+      "category": "海鲜类",
+      "prep_time_min": 10,
+      "difficulty": "极简",
+      "base_servings": 2,
+      "main_ingredients": [
+        {
+          "name": "鲜虾",
+          "amount": 300,
+          "unit": "克",
+          "grams": 300
+        }
+      ],
+      "optional_aromatics": [
+        "葱",
+        "姜",
+        "蒜",
+        "小米辣"
+      ],
+      "basic_seasonings": [
+        "油",
+        "料酒",
+        "生抽",
+        "香醋"
+      ],
+      "special_seasonings": [],
+      "allergens": [
+        "大豆",
+        "麸质",
+        "甲壳类",
+        "酒精"
+      ],
+      "diet": {
+        "vegetarian": "no",
+        "vegan": "no",
+        "pork": "free",
+        "beef": "free",
+        "alcohol": "contains"
+      },
+      "spicy": {
+        "level": 0,
+        "optional": true
+      },
+      "cookware": [
+        "汤锅",
+        "电饭煲"
+      ],
+      "tags": [
+        "快手",
+        "低脂",
+        "零失败"
+      ],
+      "steps": [
+        "鲜虾剪去虾须洗净。",
+        "锅中烧水，放葱段、姜片和1勺料酒，水开后下虾煮2分钟至变红卷曲捞出。",
+        "碗里放蒜末、小米辣、2勺生抽、半勺香醋，淋一勺热油激香成蘸料。"
+      ]
+    },
+    {
+      "id": "r019",
+      "name": "番茄龙利鱼/巴沙鱼",
+      "category": "海鲜类",
+      "prep_time_min": 18,
+      "difficulty": "极简",
+      "base_servings": 2,
+      "main_ingredients": [
+        {
+          "name": "巴沙鱼/龙利鱼柳",
+          "amount": 300,
+          "unit": "克",
+          "grams": 300
+        },
+        {
+          "name": "西红柿",
+          "amount": 2,
+          "unit": "个",
+          "grams": 300
+        }
+      ],
+      "optional_aromatics": [
+        "葱",
+        "姜",
+        "蒜"
+      ],
+      "basic_seasonings": [
+        "油",
+        "盐",
+        "生抽",
+        "料酒",
+        "白糖",
+        "淀粉",
+        "黑胡椒粉"
+      ],
+      "special_seasonings": [],
+      "allergens": [
+        "大豆",
+        "麸质",
+        "鱼类",
+        "酒精"
+      ],
+      "diet": {
+        "vegetarian": "no",
+        "vegan": "no",
+        "pork": "free",
+        "beef": "free",
+        "alcohol": "contains"
+      },
+      "spicy": {
+        "level": 0,
+        "optional": false
+      },
+      "cookware": [
+        "炒锅"
+      ],
+      "tags": [
+        "无刺",
+        "减脂",
+        "酸甜开胃",
+        "快手"
+      ],
+      "steps": [
+        "鱼柳切块，加料酒、盐、黑胡椒、1勺淀粉抓匀腌10分钟；西红柿切丁。",
+        "热锅少油炒香葱姜蒜，下西红柿炒出沙，加1碗清水煮开。",
+        "下鱼块轻推散，加1勺生抽、少许盐和白糖，中火煮3-4分钟至鱼肉变白熟透。",
+        "撒葱花即可连汤带肉一起吃。"
+      ]
+    },
+    {
+      "id": "r020",
+      "name": "清蒸鲈鱼",
+      "category": "海鲜类",
+      "prep_time_min": 18,
+      "difficulty": "简单",
+      "base_servings": 2,
+      "main_ingredients": [
+        {
+          "name": "鲈鱼",
+          "amount": 1,
+          "unit": "条",
+          "grams": 500
+        }
+      ],
+      "optional_aromatics": [
+        "葱",
+        "姜"
+      ],
+      "basic_seasonings": [
+        "油",
+        "料酒",
+        "生抽"
+      ],
+      "special_seasonings": [
+        "蒸鱼豉油（可用生抽+少许白糖代替）"
+      ],
+      "allergens": [
+        "大豆",
+        "麸质",
+        "鱼类",
+        "酒精"
+      ],
+      "diet": {
+        "vegetarian": "no",
+        "vegan": "no",
+        "pork": "free",
+        "beef": "free",
+        "alcohol": "contains"
+      },
+      "spicy": {
+        "level": 0,
+        "optional": false
+      },
+      "cookware": [
+        "蒸锅"
+      ],
+      "tags": [
+        "清淡",
+        "硬菜",
+        "高蛋白"
+      ],
+      "steps": [
+        "鲈鱼两面划斜刀，抹少许料酒和盐，鱼腹和鱼身放姜片葱段腌10分钟。",
+        "水开后上锅大火蒸8分钟，关火虚蒸2分钟取出，倒掉盘中腥水并挑去旧葱姜。",
+        "鱼身铺新葱丝，淋2-3勺蒸鱼豉油（或生抽+少许糖），泼一勺滚烫热油滋香。"
+      ]
+    },
+    {
+      "id": "r021",
+      "name": "青椒炒蛋",
+      "category": "蛋类/快手菜",
+      "prep_time_min": 10,
+      "difficulty": "极简",
+      "base_servings": 2,
+      "main_ingredients": [
+        {
+          "name": "青椒",
+          "amount": 3,
+          "unit": "个",
+          "grams": 180
+        },
+        {
+          "name": "鸡蛋",
+          "amount": 3,
+          "unit": "个",
+          "grams": 150
+        }
+      ],
+      "optional_aromatics": [
+        "蒜"
+      ],
+      "basic_seasonings": [
+        "油",
+        "盐",
+        "生抽"
+      ],
+      "special_seasonings": [],
+      "allergens": [
+        "蛋",
+        "大豆",
+        "麸质"
+      ],
+      "diet": {
+        "vegetarian": "yes",
+        "vegan": "no",
+        "pork": "free",
+        "beef": "free",
+        "alcohol": "free"
+      },
+      "spicy": {
+        "level": 0,
+        "optional": false
+      },
+      "cookware": [
+        "炒锅"
+      ],
+      "tags": [
+        "快手",
+        "下饭",
+        "一人食友好",
+        "省钱"
+      ],
+      "steps": [
+        "青椒去籽切丝或滚刀块；鸡蛋打散加少许盐。",
+        "热锅倒油，倒入蛋液滑炒至定型盛出。",
+        "底油下蒜末和青椒大火炒至断生微起虎皮，加少许盐。",
+        "倒回鸡蛋，淋1勺生抽大火翻炒均匀出锅。"
+      ]
+    },
+    {
+      "id": "r022",
+      "name": "洋葱炒蛋",
+      "category": "蛋类/快手菜",
+      "prep_time_min": 10,
+      "difficulty": "极简",
+      "base_servings": 2,
+      "main_ingredients": [
+        {
+          "name": "洋葱",
+          "amount": 1,
+          "unit": "个",
+          "grams": 200
+        },
+        {
+          "name": "鸡蛋",
+          "amount": 3,
+          "unit": "个",
+          "grams": 150
+        }
+      ],
+      "optional_aromatics": [],
+      "basic_seasonings": [
+        "油",
+        "盐",
+        "生抽"
+      ],
+      "special_seasonings": [],
+      "allergens": [
+        "蛋",
+        "大豆",
+        "麸质"
+      ],
+      "diet": {
+        "vegetarian": "yes",
+        "vegan": "no",
+        "pork": "free",
+        "beef": "free",
+        "alcohol": "free"
+      },
+      "spicy": {
+        "level": 0,
+        "optional": false
+      },
+      "cookware": [
+        "炒锅"
+      ],
+      "tags": [
+        "快手",
+        "甜香",
+        "省钱",
+        "一人食友好"
+      ],
+      "steps": [
+        "洋葱切丝或块；鸡蛋打散加少许盐。",
+        "热锅倒油滑炒鸡蛋至定型盛出。",
+        "底油下洋葱中大火翻炒2分钟至变软透明有甜香，加少许盐。",
+        "倒回鸡蛋淋1勺生抽翻匀出锅。"
+      ]
+    },
+    {
+      "id": "r023",
+      "name": "蒸水蛋",
+      "category": "蛋类/快手菜",
+      "prep_time_min": 15,
+      "difficulty": "极简",
+      "base_servings": 1,
+      "main_ingredients": [
+        {
+          "name": "鸡蛋",
+          "amount": 2,
+          "unit": "个",
+          "grams": 100
+        }
+      ],
+      "optional_aromatics": [
+        "小葱"
+      ],
+      "basic_seasonings": [
+        "油",
+        "盐",
+        "生抽"
+      ],
+      "special_seasonings": [
+        "香油（可选）"
+      ],
+      "allergens": [
+        "蛋",
+        "大豆",
+        "麸质",
+        "芝麻"
+      ],
+      "diet": {
+        "vegetarian": "yes",
+        "vegan": "no",
+        "pork": "free",
+        "beef": "free",
+        "alcohol": "free"
+      },
+      "spicy": {
+        "level": 0,
+        "optional": false
+      },
+      "cookware": [
+        "蒸锅",
+        "电饭煲",
+        "微波炉"
+      ],
+      "tags": [
+        "一人食",
+        "清淡",
+        "零失败",
+        "省钱"
+      ],
+      "steps": [
+        "鸡蛋打散加少许盐，按蛋液:温水 = 1:1.5 的比例加入温水搅匀，撇去表面浮沫。",
+        "碗上盖盘子或扎小孔的保鲜膜，水开后上锅中小火蒸8-10分钟。",
+        "出锅撒葱花，淋1勺生抽和几滴香油（或熟油）即可。"
+      ]
+    },
+    {
+      "id": "r024",
+      "name": "肉末蒸蛋",
+      "category": "蛋肉类",
+      "prep_time_min": 18,
+      "difficulty": "简单",
+      "base_servings": 2,
+      "main_ingredients": [
+        {
+          "name": "鸡蛋",
+          "amount": 3,
+          "unit": "个",
+          "grams": 150
+        },
+        {
+          "name": "猪肉末",
+          "amount": 100,
+          "unit": "克",
+          "grams": 100
+        }
+      ],
+      "optional_aromatics": [
+        "小葱",
+        "蒜"
+      ],
+      "basic_seasonings": [
+        "油",
+        "盐",
+        "生抽",
+        "老抽",
+        "料酒"
+      ],
+      "special_seasonings": [],
+      "allergens": [
+        "蛋",
+        "大豆",
+        "麸质",
+        "酒精"
+      ],
+      "diet": {
+        "vegetarian": "no",
+        "vegan": "no",
+        "pork": "contains",
+        "beef": "free",
+        "alcohol": "contains"
+      },
+      "spicy": {
+        "level": 0,
+        "optional": false
+      },
+      "cookware": [
+        "蒸锅",
+        "电饭煲",
+        "微波炉"
+      ],
+      "tags": [
+        "下饭",
+        "嫩滑",
+        "老少皆宜"
+      ],
+      "steps": [
+        "鸡蛋打散加1.5倍温水和少许盐撇沫，盖盘子上锅蒸10分钟定型。",
+        "蒸蛋同时，热锅少油炒香蒜末和肉末，加1勺料酒、1勺生抽、半勺老抽炒香，加少许水淀粉收汁。",
+        "把炒好的肉末连汁浇在蒸好的水蛋上，撒葱花。"
+      ]
+    },
+    {
+      "id": "r025",
+      "name": "麻婆豆腐",
+      "category": "豆制品",
+      "prep_time_min": 15,
+      "difficulty": "简单",
+      "base_servings": 2,
+      "main_ingredients": [
+        {
+          "name": "嫩豆腐",
+          "amount": 1,
+          "unit": "盒",
+          "grams": 350
+        },
+        {
+          "name": "猪肉末（可省，纯素也香）",
+          "amount": 80,
+          "unit": "克",
+          "grams": 80
+        }
+      ],
+      "optional_aromatics": [
+        "葱",
+        "姜",
+        "蒜"
+      ],
+      "basic_seasonings": [
+        "油",
+        "生抽",
+        "白糖",
+        "淀粉",
+        "花椒粉"
+      ],
+      "special_seasonings": [
+        "郫县豆瓣酱"
+      ],
+      "allergens": [
+        "大豆",
+        "麸质"
+      ],
+      "diet": {
+        "vegetarian": "optional",
+        "vegan": "optional",
+        "pork": "optional",
+        "beef": "free",
+        "alcohol": "free"
+      },
+      "spicy": {
+        "level": 1,
+        "optional": false
+      },
+      "cookware": [
+        "炒锅"
+      ],
+      "tags": [
+        "下饭神菜",
+        "省钱",
+        "快手"
+      ],
+      "steps": [
+        "豆腐切小块，加少许盐的沸水焯烫1分钟捞出（不易碎且去豆腥）。",
+        "热锅少油炒香肉末（若无肉末直接下一步）和葱姜蒜，加1.5勺豆瓣酱炒出红油。",
+        "加半碗清水烧开，轻轻滑入豆腐，加1勺生抽、少许白糖小火焖煮3分钟。",
+        "分两次淋入水淀粉勾芡晃锅收汁，出锅撒葱花和花椒粉。"
+      ]
+    },
+    {
+      "id": "r026",
+      "name": "家常煎烧豆腐",
+      "category": "豆制品",
+      "prep_time_min": 15,
+      "difficulty": "极简",
+      "base_servings": 2,
+      "main_ingredients": [
+        {
+          "name": "老豆腐/北豆腐",
+          "amount": 1,
+          "unit": "块",
+          "grams": 350
+        }
+      ],
+      "optional_aromatics": [
+        "小葱",
+        "蒜",
+        "小米辣"
+      ],
+      "basic_seasonings": [
+        "油",
+        "盐",
+        "生抽",
+        "老抽",
+        "白糖",
+        "淀粉"
+      ],
+      "special_seasonings": [
+        "蚝油（可选）"
+      ],
+      "allergens": [
+        "大豆",
+        "麸质",
+        "贝类"
+      ],
+      "diet": {
+        "vegetarian": "optional",
+        "vegan": "optional",
+        "pork": "free",
+        "beef": "free",
+        "alcohol": "free"
+      },
+      "spicy": {
+        "level": 0,
+        "optional": true
+      },
+      "cookware": [
+        "平底锅"
+      ],
+      "tags": [
+        "素菜",
+        "下饭",
+        "省钱"
+      ],
+      "steps": [
+        "老豆腐切片或块；调碗汁（2勺生抽+半勺老抽+1勺蚝油+半勺糖+半勺淀粉+半碗水）。",
+        "平底锅倒油，中火将豆腐两面煎至金黄微脆。",
+        "撒入蒜末和小米辣煎出香味，倒入碗汁。",
+        "中小火焖煮2分钟至入味收汁，撒葱花出锅。"
+      ]
+    },
+    {
+      "id": "r027",
+      "name": "白菜炖豆腐",
+      "category": "豆制品/素菜",
+      "prep_time_min": 15,
+      "difficulty": "极简",
+      "base_servings": 2,
+      "main_ingredients": [
+        {
+          "name": "大白菜/娃娃菜",
+          "amount": 300,
+          "unit": "克",
+          "grams": 300
+        },
+        {
+          "name": "豆腐",
+          "amount": 1,
+          "unit": "块",
+          "grams": 300
+        }
+      ],
+      "optional_aromatics": [
+        "葱",
+        "姜",
+        "蒜"
+      ],
+      "basic_seasonings": [
+        "油",
+        "盐",
+        "生抽"
+      ],
+      "special_seasonings": [
+        "粉条（可选）"
+      ],
+      "allergens": [
+        "大豆",
+        "麸质"
+      ],
+      "diet": {
+        "vegetarian": "yes",
+        "vegan": "yes",
+        "pork": "free",
+        "beef": "free",
+        "alcohol": "free"
+      },
+      "spicy": {
+        "level": 0,
+        "optional": false
+      },
+      "cookware": [
+        "炒锅",
+        "汤锅",
+        "电饭煲"
+      ],
+      "tags": [
+        "清淡",
+        "暖胃",
+        "快手",
+        "省钱"
+      ],
+      "steps": [
+        "白菜洗净撕块（帮和叶分开）；豆腐切块。",
+        "热锅少油爆香葱姜蒜，先下白菜帮炒软。",
+        "加1碗清水（或开水），放入豆腐块和1勺生抽，中火炖5分钟。",
+        "放入白菜叶再炖2分钟，加盐调味出锅。"
+      ]
+    },
+    {
+      "id": "r028",
+      "name": "酸辣土豆丝",
+      "category": "素菜",
+      "prep_time_min": 12,
+      "difficulty": "简单",
+      "base_servings": 2,
+      "main_ingredients": [
+        {
+          "name": "土豆",
+          "amount": 2,
+          "unit": "个",
+          "grams": 300
+        },
+        {
+          "name": "青椒（可选配色）",
+          "amount": 1,
+          "unit": "个",
+          "grams": 60
+        }
+      ],
+      "optional_aromatics": [
+        "蒜",
+        "干辣椒",
+        "小葱"
+      ],
+      "basic_seasonings": [
+        "油",
+        "盐",
+        "白醋/香醋",
+        "生抽"
+      ],
+      "special_seasonings": [],
+      "allergens": [
+        "大豆",
+        "麸质"
+      ],
+      "diet": {
+        "vegetarian": "yes",
+        "vegan": "yes",
+        "pork": "free",
+        "beef": "free",
+        "alcohol": "free"
+      },
+      "spicy": {
+        "level": 1,
+        "optional": true
+      },
+      "cookware": [
+        "炒锅"
+      ],
+      "tags": [
+        "快手",
+        "下饭",
+        "省钱",
+        "素菜"
+      ],
+      "steps": [
+        "土豆切细丝，用清水淘洗两遍去淀粉后沥干（脆爽关键）。",
+        "热锅倒油爆香蒜末和干辣椒，转大火下土豆丝和青椒丝。",
+        "沿锅边淋入2勺白醋（或香醋）和半勺生抽，大火快炒1-2分钟至断生。",
+        "加盐调味，撒葱花出锅。"
+      ]
+    },
+    {
+      "id": "r029",
+      "name": "蒜蓉西兰花",
+      "category": "素菜",
+      "prep_time_min": 10,
+      "difficulty": "极简",
+      "base_servings": 2,
+      "main_ingredients": [
+        {
+          "name": "西兰花",
+          "amount": 1,
+          "unit": "颗",
+          "grams": 300
+        }
+      ],
+      "optional_aromatics": [
+        "蒜"
+      ],
+      "basic_seasonings": [
+        "油",
+        "盐",
+        "生抽"
+      ],
+      "special_seasonings": [
+        "蚝油（可选）"
+      ],
+      "allergens": [
+        "大豆",
+        "麸质",
+        "贝类"
+      ],
+      "diet": {
+        "vegetarian": "optional",
+        "vegan": "optional",
+        "pork": "free",
+        "beef": "free",
+        "alcohol": "free"
+      },
+      "spicy": {
+        "level": 0,
+        "optional": false
+      },
+      "cookware": [
+        "炒锅"
+      ],
+      "tags": [
+        "减脂",
+        "快手",
+        "清淡",
+        "素菜"
+      ],
+      "steps": [
+        "西兰花掰小朵洗净；水开加几滴油和少许盐，下西兰花焯烫1分钟捞出沥干。",
+        "热锅少油小火炒香蒜末（多放点蒜更香）。",
+        "倒入西兰花大火翻炒30秒，加少许盐和1勺蚝油（或生抽）炒匀出锅。"
+      ]
+    },
+    {
+      "id": "r030",
+      "name": "清炒时蔬（油麦菜/生菜/空心菜）",
+      "category": "素菜",
+      "prep_time_min": 8,
+      "difficulty": "极简",
+      "base_servings": 2,
+      "main_ingredients": [
+        {
+          "name": "绿叶菜（生菜/油麦菜/空心菜/菠菜）",
+          "amount": 350,
+          "unit": "克",
+          "grams": 350
+        }
+      ],
+      "optional_aromatics": [
+        "蒜"
+      ],
+      "basic_seasonings": [
+        "油",
+        "盐"
+      ],
+      "special_seasonings": [],
+      "allergens": [],
+      "diet": {
+        "vegetarian": "yes",
+        "vegan": "yes",
+        "pork": "free",
+        "beef": "free",
+        "alcohol": "free"
+      },
+      "spicy": {
+        "level": 0,
+        "optional": false
+      },
+      "cookware": [
+        "炒锅"
+      ],
+      "tags": [
+        "快手",
+        "减脂",
+        "解腻",
+        "素菜"
+      ],
+      "steps": [
+        "绿叶菜洗净沥干水分（或切段）。",
+        "热锅倒油爆香拍扁的蒜瓣。",
+        "转最大火倒入青菜快速翻炒40-60秒至菜叶变软塌。",
+        "加适量盐迅速翻匀立刻出锅（防出水）。"
+      ]
+    },
+    {
+      "id": "r031",
+      "name": "蚝油生菜",
+      "category": "素菜",
+      "prep_time_min": 8,
+      "difficulty": "极简",
+      "base_servings": 2,
+      "main_ingredients": [
+        {
+          "name": "生菜",
+          "amount": 1,
+          "unit": "颗",
+          "grams": 300
+        }
+      ],
+      "optional_aromatics": [
+        "蒜"
+      ],
+      "basic_seasonings": [
+        "油",
+        "盐",
+        "生抽",
+        "白糖",
+        "淀粉"
+      ],
+      "special_seasonings": [
+        "蚝油"
+      ],
+      "allergens": [
+        "大豆",
+        "麸质",
+        "贝类"
+      ],
+      "diet": {
+        "vegetarian": "no",
+        "vegan": "no",
+        "pork": "free",
+        "beef": "free",
+        "alcohol": "free"
+      },
+      "spicy": {
+        "level": 0,
+        "optional": false
+      },
+      "cookware": [
+        "汤锅",
+        "炒锅"
+      ],
+      "tags": [
+        "快手",
+        "零失败",
+        "减脂",
+        "素菜"
+      ],
+      "steps": [
+        "生菜掰叶洗净；水开加几滴油和少许盐，下生菜烫20秒变翠绿立刻捞出摆盘。",
+        "热锅少油爆香蒜末，加2勺蚝油、1勺生抽、半勺糖和3勺清水煮开，淋少许水淀粉勾薄芡。",
+        "将蒜蓉蚝油汁均匀淋在生菜上即可。"
+      ]
+    },
+    {
+      "id": "r032",
+      "name": "地三鲜（少油家常版）",
+      "category": "素菜",
+      "prep_time_min": 20,
+      "difficulty": "简单",
+      "base_servings": 2,
+      "main_ingredients": [
+        {
+          "name": "土豆",
+          "amount": 1,
+          "unit": "个",
+          "grams": 180
+        },
+        {
+          "name": "茄子",
+          "amount": 1,
+          "unit": "根",
+          "grams": 180
+        },
+        {
+          "name": "青椒",
+          "amount": 1,
+          "unit": "个",
+          "grams": 80
+        }
+      ],
+      "optional_aromatics": [
+        "蒜"
+      ],
+      "basic_seasonings": [
+        "油",
+        "盐",
+        "生抽",
+        "老抽",
+        "白糖",
+        "淀粉"
+      ],
+      "special_seasonings": [],
+      "allergens": [
+        "大豆",
+        "麸质"
+      ],
+      "diet": {
+        "vegetarian": "yes",
+        "vegan": "yes",
+        "pork": "free",
+        "beef": "free",
+        "alcohol": "free"
+      },
+      "spicy": {
+        "level": 0,
+        "optional": false
+      },
+      "cookware": [
+        "炒锅"
+      ],
+      "tags": [
+        "下饭神菜",
+        "素菜",
+        "经典"
+      ],
+      "steps": [
+        "土豆、茄子切滚刀块，青椒切块；调碗汁（2勺生抽+半勺老抽+1勺白糖+1勺淀粉+半碗水）。",
+        "锅中放稍多一点油，先中小火把土豆块煎至表面金黄盛出，再把茄子煎软盛出。",
+        "底油爆香蒜末，下青椒和煎好的土豆茄子翻炒几下。",
+        "倒入碗汁大火翻炒至汤汁浓稠挂匀出锅。"
+      ]
+    },
+    {
+      "id": "r033",
+      "name": "蒜蓉金针菇（平底锅版）",
+      "category": "菌菇素菜",
+      "prep_time_min": 10,
+      "difficulty": "极简",
+      "base_servings": 2,
+      "main_ingredients": [
+        {
+          "name": "金针菇",
+          "amount": 1,
+          "unit": "把",
+          "grams": 250
+        }
+      ],
+      "optional_aromatics": [
+        "蒜",
+        "小米辣",
+        "小葱"
+      ],
+      "basic_seasonings": [
+        "油",
+        "生抽",
+        "白糖"
+      ],
+      "special_seasonings": [
+        "蚝油（可选）"
+      ],
+      "allergens": [
+        "大豆",
+        "麸质",
+        "贝类"
+      ],
+      "diet": {
+        "vegetarian": "optional",
+        "vegan": "optional",
+        "pork": "free",
+        "beef": "free",
+        "alcohol": "free"
+      },
+      "spicy": {
+        "level": 0,
+        "optional": true
+      },
+      "cookware": [
+        "平底锅"
+      ],
+      "tags": [
+        "快手",
+        "省钱",
+        "减脂",
+        "零失败"
+      ],
+      "steps": [
+        "金针菇去根撕成小束洗净沥干；多切些蒜末和小米辣。",
+        "热锅少油小火炒香一半蒜末和小米辣，加1勺生抽、1勺蚝油、少许糖和2勺水搅匀成蒜蓉酱。",
+        "金针菇铺入锅中，淋上蒜蓉酱，加盖中小火焖煮3-4分钟至金针菇变软。",
+        "撒剩余生蒜末和葱花出锅。"
+      ]
+    },
+    {
+      "id": "r034",
+      "name": "拍黄瓜",
+      "category": "凉拌菜",
+      "prep_time_min": 5,
+      "difficulty": "极简",
+      "base_servings": 2,
+      "main_ingredients": [
+        {
+          "name": "黄瓜",
+          "amount": 2,
+          "unit": "根",
+          "grams": 300
+        }
+      ],
+      "optional_aromatics": [
+        "蒜",
+        "小米辣",
+        "香菜"
+      ],
+      "basic_seasonings": [
+        "盐",
+        "生抽",
+        "香醋",
+        "白糖"
+      ],
+      "special_seasonings": [
+        "香油或辣椒油（可选）"
+      ],
+      "allergens": [
+        "大豆",
+        "麸质",
+        "芝麻"
+      ],
+      "diet": {
+        "vegetarian": "yes",
+        "vegan": "yes",
+        "pork": "free",
+        "beef": "free",
+        "alcohol": "free"
+      },
+      "spicy": {
+        "level": 0,
+        "optional": true
+      },
+      "cookware": [
+        "无需开火"
+      ],
+      "tags": [
+        "免开火",
+        "5分钟",
+        "减脂",
+        "解腻"
+      ],
+      "steps": [
+        "黄瓜洗净用刀面拍扁切段，加少许盐抓匀腌5分钟倒掉多余水分。",
+        "加入蒜末、小米辣、2勺生抽、2勺香醋、半勺白糖和几滴香油/辣椒油拌匀即可。"
+      ]
+    },
+    {
+      "id": "r035",
+      "name": "番茄蛋汤",
+      "category": "汤羹",
+      "prep_time_min": 10,
+      "difficulty": "极简",
+      "base_servings": 2,
+      "main_ingredients": [
+        {
+          "name": "西红柿",
+          "amount": 1,
+          "unit": "个",
+          "grams": 150
+        },
+        {
+          "name": "鸡蛋",
+          "amount": 2,
+          "unit": "个",
+          "grams": 100
+        }
+      ],
+      "optional_aromatics": [
+        "小葱"
+      ],
+      "basic_seasonings": [
+        "油",
+        "盐"
+      ],
+      "special_seasonings": [
+        "香油（可选）"
+      ],
+      "allergens": [
+        "蛋",
+        "芝麻"
+      ],
+      "diet": {
+        "vegetarian": "yes",
+        "vegan": "no",
+        "pork": "free",
+        "beef": "free",
+        "alcohol": "free"
+      },
+      "spicy": {
+        "level": 0,
+        "optional": false
+      },
+      "cookware": [
+        "汤锅",
+        "电饭煲"
+      ],
+      "tags": [
+        "快手",
+        "暖胃",
+        "清淡",
+        "零失败"
+      ],
+      "steps": [
+        "西红柿切薄片或小丁；鸡蛋打散。",
+        "热锅少油下西红柿炒软出汁，加适量清水大火烧开煮2分钟。",
+        "转小火，绕圈淋入蛋液，待蛋花浮起后关火。",
+        "加盐调味，撒葱花淋几滴香油出锅。"
+      ]
+    },
+    {
+      "id": "r036",
+      "name": "紫菜蛋花汤",
+      "category": "汤羹",
+      "prep_time_min": 5,
+      "difficulty": "极简",
+      "base_servings": 2,
+      "main_ingredients": [
+        {
+          "name": "紫菜",
+          "amount": 10,
+          "unit": "克",
+          "grams": 10
+        },
+        {
+          "name": "鸡蛋",
+          "amount": 2,
+          "unit": "个",
+          "grams": 100
+        }
+      ],
+      "optional_aromatics": [
+        "小葱"
+      ],
+      "basic_seasonings": [
+        "盐",
+        "生抽"
+      ],
+      "special_seasonings": [
+        "虾皮（可选）",
+        "香油（可选）"
+      ],
+      "allergens": [
+        "蛋",
+        "大豆",
+        "麸质",
+        "甲壳类",
+        "芝麻"
+      ],
+      "diet": {
+        "vegetarian": "optional",
+        "vegan": "no",
+        "pork": "free",
+        "beef": "free",
+        "alcohol": "free"
+      },
+      "spicy": {
+        "level": 0,
+        "optional": false
+      },
+      "cookware": [
+        "汤锅",
+        "电饭煲"
+      ],
+      "tags": [
+        "5分钟",
+        "快手",
+        "省钱",
+        "一人食友好"
+      ],
+      "steps": [
+        "碗里放撕碎的紫菜、葱花、少许盐、半勺生抽和几滴香油（有虾皮可放一点）。",
+        "锅中烧开适量清水，转小火绕圈淋入打散的蛋液，蛋花成型即关火。",
+        "将滚烫的蛋花汤直接冲入碗中拌匀即可。"
+      ]
+    },
+    {
+      "id": "r037",
+      "name": "丝瓜蛋汤",
+      "category": "汤羹",
+      "prep_time_min": 10,
+      "difficulty": "极简",
+      "base_servings": 2,
+      "main_ingredients": [
+        {
+          "name": "丝瓜",
+          "amount": 1,
+          "unit": "根",
+          "grams": 200
+        },
+        {
+          "name": "鸡蛋",
+          "amount": 2,
+          "unit": "个",
+          "grams": 100
+        }
+      ],
+      "optional_aromatics": [
+        "姜",
+        "小葱"
+      ],
+      "basic_seasonings": [
+        "油",
+        "盐"
+      ],
+      "special_seasonings": [],
+      "allergens": [
+        "蛋"
+      ],
+      "diet": {
+        "vegetarian": "yes",
+        "vegan": "no",
+        "pork": "free",
+        "beef": "free",
+        "alcohol": "free"
+      },
+      "spicy": {
+        "level": 0,
+        "optional": false
+      },
+      "cookware": [
+        "汤锅",
+        "电饭煲"
+      ],
+      "tags": [
+        "清淡",
+        "快手",
+        "解腻"
+      ],
+      "steps": [
+        "丝瓜去皮切滚刀块；鸡蛋打散。",
+        "热锅倒油先把鸡蛋煎熟盛出（或炒散）。",
+        "锅留少许油下丝瓜和姜片翻炒至微软，倒入滚开水大火煮2分钟至汤色奶白。",
+        "放入煎蛋再煮1分钟，加盐撒葱花出锅。"
+      ]
+    },
+    {
+      "id": "r038",
+      "name": "菌菇豆腐汤",
+      "category": "汤羹",
+      "prep_time_min": 12,
+      "difficulty": "极简",
+      "base_servings": 2,
+      "main_ingredients": [
+        {
+          "name": "菌菇（金针菇/香菇/白玉菇任选）",
+          "amount": 150,
+          "unit": "克",
+          "grams": 150
+        },
+        {
+          "name": "嫩豆腐",
+          "amount": 0.5,
+          "unit": "盒",
+          "grams": 175
+        },
+        {
+          "name": "鸡蛋（可选增鲜）",
+          "amount": 1,
+          "unit": "个",
+          "grams": 50
+        }
+      ],
+      "optional_aromatics": [
+        "小葱"
+      ],
+      "basic_seasonings": [
+        "油",
+        "盐",
+        "黑胡椒粉"
+      ],
+      "special_seasonings": [],
+      "allergens": [
+        "蛋",
+        "大豆"
+      ],
+      "diet": {
+        "vegetarian": "yes",
+        "vegan": "optional",
+        "pork": "free",
+        "beef": "free",
+        "alcohol": "free"
+      },
+      "spicy": {
+        "level": 0,
+        "optional": false
+      },
+      "cookware": [
+        "汤锅",
+        "电饭煲"
+      ],
+      "tags": [
+        "减脂",
+        "清淡",
+        "暖胃",
+        "快手"
+      ],
+      "steps": [
+        "菌菇洗净撕开，豆腐切小块。",
+        "热锅少油下菌菇炒软出汁，加适量开水煮沸。",
+        "放入豆腐块中火煮3-4分钟，若有鸡蛋可淋入蛋液。",
+        "加盐和少许白/黑胡椒粉调味，撒葱花出锅。"
+      ]
+    },
+    {
+      "id": "r039",
+      "name": "黄金蛋炒饭",
+      "category": "主食/一锅出",
+      "prep_time_min": 10,
+      "difficulty": "极简",
+      "base_servings": 1,
+      "main_ingredients": [
+        {
+          "name": "剩米饭",
+          "amount": 1,
+          "unit": "碗",
+          "grams": 220
+        },
+        {
+          "name": "鸡蛋",
+          "amount": 2,
+          "unit": "个",
+          "grams": 100
+        },
+        {
+          "name": "火腿肠/午餐肉（可选）",
+          "amount": 1,
+          "unit": "根",
+          "grams": 50
+        }
+      ],
+      "optional_aromatics": [
+        "小葱"
+      ],
+      "basic_seasonings": [
+        "油",
+        "盐",
+        "生抽"
+      ],
+      "special_seasonings": [],
+      "allergens": [
+        "蛋",
+        "大豆",
+        "麸质"
+      ],
+      "diet": {
+        "vegetarian": "optional",
+        "vegan": "no",
+        "pork": "optional",
+        "beef": "free",
+        "alcohol": "free"
+      },
+      "spicy": {
+        "level": 0,
+        "optional": false
+      },
+      "cookware": [
+        "炒锅"
+      ],
+      "tags": [
+        "一人食",
+        "清冰箱神器",
+        "10分钟",
+        "零失败"
+      ],
+      "steps": [
+        "米饭提前打散；鸡蛋打散（若有火腿肠切丁）。",
+        "热锅倒油下蛋液滑炒成碎块（或直接把蛋液拌进米饭再炒），下火腿丁炒香。",
+        "倒入米饭转中大火翻炒2分钟至米粒松散弹跳。",
+        "加少许盐和半勺生抽沿锅边淋入炒匀，撒葱花出锅。"
+      ]
+    },
+    {
+      "id": "r040",
+      "name": "番茄鸡蛋面",
+      "category": "主食/一锅出",
+      "prep_time_min": 12,
+      "difficulty": "极简",
+      "base_servings": 1,
+      "main_ingredients": [
+        {
+          "name": "西红柿",
+          "amount": 1,
+          "unit": "个",
+          "grams": 150
+        },
+        {
+          "name": "鸡蛋",
+          "amount": 2,
+          "unit": "个",
+          "grams": 100
+        },
+        {
+          "name": "挂面/面条",
+          "amount": 100,
+          "unit": "克",
+          "grams": 100
+        }
+      ],
+      "optional_aromatics": [
+        "小葱",
+        "青菜叶（可选）"
+      ],
+      "basic_seasonings": [
+        "油",
+        "盐",
+        "生抽",
+        "白糖"
+      ],
+      "special_seasonings": [],
+      "allergens": [
+        "蛋",
+        "大豆",
+        "麸质"
+      ],
+      "diet": {
+        "vegetarian": "yes",
+        "vegan": "no",
+        "pork": "free",
+        "beef": "free",
+        "alcohol": "free"
+      },
+      "spicy": {
+        "level": 0,
+        "optional": false
+      },
+      "cookware": [
+        "炒锅",
+        "汤锅"
+      ],
+      "tags": [
+        "一人食",
+        "暖胃",
+        "快手",
+        "省洗碗"
+      ],
+      "steps": [
+        "西红柿切丁；鸡蛋煎成荷包蛋或炒散盛出。",
+        "锅中炒香葱白和西红柿至出沙，加1大碗清水、1勺生抽、少许糖和盐煮开。",
+        "直接下入挂面中火煮3-4分钟至面条熟透（最后1分钟可扔几片青菜）。",
+        "放回鸡蛋，撒葱花连汤带面盛出。"
+      ]
+    },
+    {
+      "id": "r041",
+      "name": "番茄肉末拌面",
+      "category": "主食/一锅出",
+      "prep_time_min": 15,
+      "difficulty": "简单",
+      "base_servings": 1,
+      "main_ingredients": [
+        {
+          "name": "西红柿",
+          "amount": 1,
+          "unit": "个",
+          "grams": 150
+        },
+        {
+          "name": "猪肉末/牛肉末",
+          "amount": 80,
+          "unit": "克",
+          "grams": 80
+        },
+        {
+          "name": "面条",
+          "amount": 100,
+          "unit": "克",
+          "grams": 100
+        }
+      ],
+      "optional_aromatics": [
+        "蒜",
+        "小葱"
+      ],
+      "basic_seasonings": [
+        "油",
+        "盐",
+        "生抽",
+        "料酒",
+        "白糖"
+      ],
+      "special_seasonings": [
+        "番茄酱（可选增浓）"
+      ],
+      "allergens": [
+        "大豆",
+        "麸质",
+        "酒精"
+      ],
+      "diet": {
+        "vegetarian": "no",
+        "vegan": "no",
+        "pork": "optional",
+        "beef": "optional",
+        "alcohol": "contains"
+      },
+      "spicy": {
+        "level": 0,
+        "optional": false
+      },
+      "cookware": [
+        "汤锅",
+        "炒锅"
+      ],
+      "tags": [
+        "一人食",
+        "下饭拌面",
+        "快手"
+      ],
+      "steps": [
+        "烧水煮面条，煮熟捞出过一下凉水或拌少许油防粘。",
+        "另起锅炒香蒜末和肉末至变色，淋半勺料酒。",
+        "下西红柿丁炒出浓汁，加1勺生抽、少许糖和盐煮至浓稠成肉酱。",
+        "把番茄肉酱浇在面条上拌匀，撒葱花即可。"
+      ]
+    },
+    {
+      "id": "r042",
+      "name": "干煸四季豆（少油快手版）",
+      "category": "素菜",
+      "prep_time_min": 18,
+      "difficulty": "简单",
+      "base_servings": 2,
+      "main_ingredients": [
+        {
+          "name": "四季豆",
+          "amount": 300,
+          "unit": "克",
+          "grams": 300
+        }
+      ],
+      "optional_aromatics": [
+        "蒜",
+        "干辣椒",
+        "姜"
+      ],
+      "basic_seasonings": [
+        "油",
+        "盐",
+        "生抽",
+        "白糖"
+      ],
+      "special_seasonings": [
+        "榨菜碎或肉末（可选）"
+      ],
+      "allergens": [
+        "大豆",
+        "麸质"
+      ],
+      "diet": {
+        "vegetarian": "optional",
+        "vegan": "optional",
+        "pork": "optional",
+        "beef": "optional",
+        "alcohol": "free"
+      },
+      "spicy": {
+        "level": 0,
+        "optional": true
+      },
+      "cookware": [
+        "炒锅"
+      ],
+      "tags": [
+        "下饭",
+        "素菜",
+        "经典"
+      ],
+      "steps": [
+        "四季豆掐头去筋掰段洗净擦干。",
+        "锅中放比平时炒菜略多的油，中小火把四季豆煸炒4-5分钟至表皮起皱微焦熟透，盛出。",
+        "锅留底油爆香蒜末和干辣椒（有肉末此时炒香）。",
+        "倒回四季豆，加1勺生抽、少许盐和白糖大火翻匀出锅。"
+      ]
+    },
+    {
+      "id": "r043",
+      "name": "西葫芦炒鸡蛋",
+      "category": "素菜/蛋类",
+      "prep_time_min": 12,
+      "difficulty": "极简",
+      "base_servings": 2,
+      "main_ingredients": [
+        {
+          "name": "西葫芦",
+          "amount": 1,
+          "unit": "根",
+          "grams": 300
+        },
+        {
+          "name": "鸡蛋",
+          "amount": 3,
+          "unit": "个",
+          "grams": 150
+        }
+      ],
+      "optional_aromatics": [
+        "蒜",
+        "小葱"
+      ],
+      "basic_seasonings": [
+        "油",
+        "盐",
+        "生抽"
+      ],
+      "special_seasonings": [],
+      "allergens": [
+        "蛋",
+        "大豆",
+        "麸质"
+      ],
+      "diet": {
+        "vegetarian": "yes",
+        "vegan": "no",
+        "pork": "free",
+        "beef": "free",
+        "alcohol": "free"
+      },
+      "spicy": {
+        "level": 0,
+        "optional": false
+      },
+      "cookware": [
+        "炒锅"
+      ],
+      "tags": [
+        "快手",
+        "清淡",
+        "省钱",
+        "减脂"
+      ],
+      "steps": [
+        "西葫芦洗净对半切再切薄片；鸡蛋打散。",
+        "热锅倒油滑炒鸡蛋至定型盛出。",
+        "底油爆香蒜末，下西葫芦片大火翻炒1-2分钟至边缘微透明断生。",
+        "倒回鸡蛋，加适量盐和半勺生抽翻匀出锅。"
+      ]
+    },
+    {
+      "id": "r044",
+      "name": "胡萝卜炒肉片",
+      "category": "猪肉类",
+      "prep_time_min": 15,
+      "difficulty": "极简",
+      "base_servings": 2,
+      "main_ingredients": [
+        {
+          "name": "胡萝卜",
+          "amount": 1.5,
+          "unit": "根",
+          "grams": 220
+        },
+        {
+          "name": "猪肉",
+          "amount": 150,
+          "unit": "克",
+          "grams": 150
+        }
+      ],
+      "optional_aromatics": [
+        "蒜",
+        "小葱"
+      ],
+      "basic_seasonings": [
+        "油",
+        "盐",
+        "生抽",
+        "料酒"
+      ],
+      "special_seasonings": [],
+      "allergens": [
+        "大豆",
+        "麸质",
+        "酒精"
+      ],
+      "diet": {
+        "vegetarian": "no",
+        "vegan": "no",
+        "pork": "contains",
+        "beef": "free",
+        "alcohol": "contains"
+      },
+      "spicy": {
+        "level": 0,
+        "optional": false
+      },
+      "cookware": [
+        "炒锅"
+      ],
+      "tags": [
+        "快手",
+        "家常",
+        "带饭友好"
+      ],
+      "steps": [
+        "胡萝卜切片；猪肉切片加少许生抽、料酒抓匀。",
+        "热锅倒油下肉片炒至变色盛出。",
+        "底油爆香蒜末，下胡萝卜片中火翻炒2-3分钟至变软（胡萝卜素脂溶性，用油炒更香甜）。",
+        "倒回肉片加盐和1勺生抽翻匀出锅。"
+      ]
+    },
+    {
+      "id": "r045",
+      "name": "手撕包菜",
+      "category": "素菜",
+      "prep_time_min": 10,
+      "difficulty": "极简",
+      "base_servings": 2,
+      "main_ingredients": [
+        {
+          "name": "圆白菜/包菜",
+          "amount": 0.5,
+          "unit": "颗",
+          "grams": 350
+        }
+      ],
+      "optional_aromatics": [
+        "蒜",
+        "干辣椒"
+      ],
+      "basic_seasonings": [
+        "油",
+        "盐",
+        "生抽",
+        "香醋",
+        "白糖"
+      ],
+      "special_seasonings": [],
+      "allergens": [
+        "大豆",
+        "麸质"
+      ],
+      "diet": {
+        "vegetarian": "yes",
+        "vegan": "yes",
+        "pork": "free",
+        "beef": "free",
+        "alcohol": "free"
+      },
+      "spicy": {
+        "level": 0,
+        "optional": true
+      },
+      "cookware": [
+        "炒锅"
+      ],
+      "tags": [
+        "快手",
+        "下饭",
+        "省钱",
+        "素菜"
+      ],
+      "steps": [
+        "包菜用手撕成大片洗净沥干（手撕比刀切更易入味）。",
+        "热锅倒油小火爆香蒜片和干辣椒。",
+        "转最大火倒入包菜翻炒1.5分钟至边缘微焦变软。",
+        "淋1勺生抽、半勺香醋、少许白糖和盐大火翻匀出锅。"
+      ]
+    },
+    {
+      "id": "r046",
+      "name": "黄瓜炒火腿肠/鸡蛋",
+      "category": "快手菜",
+      "prep_time_min": 10,
+      "difficulty": "极简",
+      "base_servings": 2,
+      "main_ingredients": [
+        {
+          "name": "黄瓜",
+          "amount": 1.5,
+          "unit": "根",
+          "grams": 220
+        },
+        {
+          "name": "鸡蛋",
+          "amount": 2,
+          "unit": "个",
+          "grams": 100
+        },
+        {
+          "name": "火腿肠（可选）",
+          "amount": 1,
+          "unit": "根",
+          "grams": 50
+        }
+      ],
+      "optional_aromatics": [
+        "蒜"
+      ],
+      "basic_seasonings": [
+        "油",
+        "盐",
+        "生抽"
+      ],
+      "special_seasonings": [],
+      "allergens": [
+        "蛋",
+        "大豆",
+        "麸质"
+      ],
+      "diet": {
+        "vegetarian": "optional",
+        "vegan": "no",
+        "pork": "optional",
+        "beef": "free",
+        "alcohol": "free"
+      },
+      "spicy": {
+        "level": 0,
+        "optional": false
+      },
+      "cookware": [
+        "炒锅"
+      ],
+      "tags": [
+        "10分钟",
+        "零失败",
+        "清淡",
+        "带饭"
+      ],
+      "steps": [
+        "黄瓜切片，火腿肠斜切片，鸡蛋打散。",
+        "热锅倒油炒散鸡蛋盛出。",
+        "底油爆香蒜末，下黄瓜片和火腿肠大火翻炒1分钟。",
+        "倒回鸡蛋，加少许盐和半勺生抽翻匀出锅。"
+      ]
+    },
+    {
+      "id": "r047",
+      "name": "白灼菜心",
+      "category": "素菜",
+      "prep_time_min": 8,
+      "difficulty": "极简",
+      "base_servings": 2,
+      "main_ingredients": [
+        {
+          "name": "菜心",
+          "amount": 300,
+          "unit": "克",
+          "grams": 300
+        }
+      ],
+      "optional_aromatics": [
+        "蒜",
+        "小米辣"
+      ],
+      "basic_seasonings": [
+        "油",
+        "盐",
+        "生抽",
+        "白糖"
+      ],
+      "special_seasonings": [
+        "蒸鱼豉油或蚝油（可选）"
+      ],
+      "allergens": [
+        "大豆",
+        "麸质",
+        "贝类",
+        "鱼类"
+      ],
+      "diet": {
+        "vegetarian": "optional",
+        "vegan": "optional",
+        "pork": "free",
+        "beef": "free",
+        "alcohol": "free"
+      },
+      "spicy": {
+        "level": 0,
+        "optional": true
+      },
+      "cookware": [
+        "汤锅",
+        "电饭煲"
+      ],
+      "tags": [
+        "清淡",
+        "减脂",
+        "快手",
+        "少油"
+      ],
+      "steps": [
+        "菜心洗净，水开加几滴油和少许盐，下菜心焯烫1分钟至断生捞出摆盘。",
+        "小碗放2勺生抽（或蒸鱼豉油）、少许白糖和2勺热汤化开淋在菜心上。",
+        "铺上蒜末和小米辣，浇一勺热油激香即可。"
+      ]
+    },
+    {
+      "id": "r048",
+      "name": "口水鸡（快手白切版）",
+      "category": "鸡肉类/凉菜",
+      "prep_time_min": 20,
+      "difficulty": "简单",
+      "base_servings": 2,
+      "main_ingredients": [
+        {
+          "name": "鸡腿（琵琶腿/全腿）",
+          "amount": 2,
+          "unit": "个",
+          "grams": 350
+        }
+      ],
+      "optional_aromatics": [
+        "葱",
+        "姜",
+        "蒜",
+        "小米辣",
+        "香菜"
+      ],
+      "basic_seasonings": [
+        "盐",
+        "料酒",
+        "生抽",
+        "香醋",
+        "白糖"
+      ],
+      "special_seasonings": [
+        "辣椒油/花椒油（可选）"
+      ],
+      "allergens": [
+        "大豆",
+        "麸质",
+        "酒精"
+      ],
+      "diet": {
+        "vegetarian": "no",
+        "vegan": "no",
+        "pork": "free",
+        "beef": "free",
+        "alcohol": "contains"
+      },
+      "spicy": {
+        "level": 1,
+        "optional": true
+      },
+      "cookware": [
+        "汤锅",
+        "电饭煲"
+      ],
+      "tags": [
+        "开胃",
+        "低脂",
+        "硬菜"
+      ],
+      "steps": [
+        "鸡腿冷水下锅，放葱姜和2勺料酒大火煮开转小火煮12分钟，关火焖5分钟。",
+        "捞出立刻浸入冰水或凉白开中降温（鸡皮更脆嫩），斩块或手撕摆盘。",
+        "调料汁（蒜末+小米辣+2勺生抽+1勺香醋+半勺白糖+2勺辣椒油+2勺鸡汤）淋在鸡肉上即可。"
+      ]
+    },
+    {
+      "id": "r049",
+      "name": "香菇滑鸡",
+      "category": "鸡肉类",
+      "prep_time_min": 20,
+      "difficulty": "简单",
+      "base_servings": 2,
+      "main_ingredients": [
+        {
+          "name": "鸡腿肉",
+          "amount": 250,
+          "unit": "克",
+          "grams": 250
+        },
+        {
+          "name": "香菇（鲜香菇或干香菇泡发）",
+          "amount": 6,
+          "unit": "朵",
+          "grams": 120
+        }
+      ],
+      "optional_aromatics": [
+        "葱",
+        "姜",
+        "蒜"
+      ],
+      "basic_seasonings": [
+        "油",
+        "盐",
+        "生抽",
+        "老抽",
+        "料酒",
+        "淀粉",
+        "白糖"
+      ],
+      "special_seasonings": [
+        "蚝油（可选）"
+      ],
+      "allergens": [
+        "大豆",
+        "麸质",
+        "贝类",
+        "酒精"
+      ],
+      "diet": {
+        "vegetarian": "no",
+        "vegan": "no",
+        "pork": "free",
+        "beef": "free",
+        "alcohol": "contains"
+      },
+      "spicy": {
+        "level": 0,
+        "optional": false
+      },
+      "cookware": [
+        "炒锅",
+        "蒸锅"
+      ],
+      "tags": [
+        "嫩滑",
+        "下饭",
+        "家常"
+      ],
+      "steps": [
+        "鸡腿肉切小块，加1勺生抽、半勺老抽、1勺料酒、1勺蚝油、1勺淀粉和姜丝腌15分钟；香菇切片。",
+        "热锅少油炒香蒜末和香菇片至出汁盛出。",
+        "下腌好的鸡块滑炒至变色，倒回香菇和少许清水加盖中小火焖5分钟熟透。",
+        "大火略收汁，撒葱花出锅。（也可直接上锅蒸15分钟，更省事！）"
+      ]
+    },
+    {
+      "id": "r050",
+      "name": "洋葱土豆炒肉",
+      "category": "猪肉类",
+      "prep_time_min": 18,
+      "difficulty": "极简",
+      "base_servings": 2,
+      "main_ingredients": [
+        {
+          "name": "土豆",
+          "amount": 1,
+          "unit": "个",
+          "grams": 200
+        },
+        {
+          "name": "洋葱",
+          "amount": 0.5,
+          "unit": "个",
+          "grams": 100
+        },
+        {
+          "name": "猪肉",
+          "amount": 150,
+          "unit": "克",
+          "grams": 150
+        }
+      ],
+      "optional_aromatics": [
+        "蒜"
+      ],
+      "basic_seasonings": [
+        "油",
+        "盐",
+        "生抽",
+        "老抽",
+        "料酒"
+      ],
+      "special_seasonings": [],
+      "allergens": [
+        "大豆",
+        "麸质",
+        "酒精"
+      ],
+      "diet": {
+        "vegetarian": "no",
+        "vegan": "no",
+        "pork": "contains",
+        "beef": "free",
+        "alcohol": "contains"
+      },
+      "spicy": {
+        "level": 0,
+        "optional": false
+      },
+      "cookware": [
+        "炒锅"
+      ],
+      "tags": [
+        "下饭",
+        "耐放食材",
+        "家常",
+        "带饭友好"
+      ],
+      "steps": [
+        "土豆切薄片洗去淀粉；洋葱切丝；猪肉切片。",
+        "热锅倒油下肉片炒至变色，加1勺料酒、半勺老抽炒匀。",
+        "倒入土豆片中火翻炒3分钟至边缘微透明软熟。",
+        "加入洋葱丝、1勺生抽和适量盐大火翻炒1分钟出锅。"
+      ]
+    },
+    {
+      "id": "r051",
+      "name": "玉米排骨汤",
+      "category": "汤羹",
+      "prep_time_min": 60,
+      "difficulty": "简单",
+      "base_servings": 2,
+      "main_ingredients": [
+        {
+          "name": "排骨",
+          "amount": 300,
+          "unit": "克",
+          "grams": 300
+        },
+        {
+          "name": "玉米",
+          "amount": 1,
+          "unit": "根",
+          "grams": 200
+        },
+        {
+          "name": "胡萝卜",
+          "amount": 1,
+          "unit": "根",
+          "grams": 120
+        }
+      ],
+      "optional_aromatics": [
+        "姜",
+        "小葱"
+      ],
+      "basic_seasonings": [
+        "盐",
+        "料酒"
+      ],
+      "special_seasonings": [],
+      "allergens": [
+        "麸质",
+        "酒精"
+      ],
+      "diet": {
+        "vegetarian": "no",
+        "vegan": "no",
+        "pork": "contains",
+        "beef": "free",
+        "alcohol": "contains"
+      },
+      "spicy": {
+        "level": 0,
+        "optional": false
+      },
+      "cookware": [
+        "汤锅",
+        "电饭煲"
+      ],
+      "tags": [
+        "汤羹",
+        "清淡",
+        "家常",
+        "硬菜"
+      ],
+      "steps": [
+        "排骨冷水下锅，加1勺料酒煮开焯水，撇去浮沫后捞出冲洗干净；玉米切段，胡萝卜切滚刀块。",
+        "排骨和姜片放入汤锅，加足量热水，大火烧开转小火炖30分钟。",
+        "放入玉米和胡萝卜再炖15分钟，加盐调味，撒葱花即可。"
+      ]
+    },
+    {
+      "id": "r052",
+      "name": "土豆烧排骨",
+      "category": "猪肉类",
+      "prep_time_min": 55,
+      "difficulty": "简单",
+      "base_servings": 2,
+      "main_ingredients": [
+        {
+          "name": "排骨",
+          "amount": 350,
+          "unit": "克",
+          "grams": 350
+        },
+        {
+          "name": "土豆",
+          "amount": 2,
+          "unit": "个",
+          "grams": 300
+        }
+      ],
+      "optional_aromatics": [
+        "姜",
+        "蒜",
+        "小葱"
+      ],
+      "basic_seasonings": [
+        "油",
+        "盐",
+        "生抽",
+        "老抽",
+        "料酒",
+        "白糖"
+      ],
+      "special_seasonings": [],
+      "allergens": [
+        "大豆",
+        "麸质",
+        "酒精"
+      ],
+      "diet": {
+        "vegetarian": "no",
+        "vegan": "no",
+        "pork": "contains",
+        "beef": "free",
+        "alcohol": "contains"
+      },
+      "spicy": {
+        "level": 0,
+        "optional": false
+      },
+      "cookware": [
+        "炒锅",
+        "汤锅"
+      ],
+      "tags": [
+        "下饭",
+        "硬菜",
+        "家常"
+      ],
+      "steps": [
+        "排骨冷水下锅加料酒焯水；土豆切滚刀块。",
+        "热锅少油炒香姜蒜，下排骨煎至微焦，加生抽、老抽、白糖翻匀。",
+        "加热水没过排骨，大火烧开转小火炖25分钟。",
+        "放土豆再炖15分钟至软烂，加盐大火收汁，撒葱花。"
+      ]
+    },
+    {
+      "id": "r053",
+      "name": "芹菜炒肉",
+      "category": "猪肉类",
+      "prep_time_min": 15,
+      "difficulty": "极简",
+      "base_servings": 2,
+      "main_ingredients": [
+        {
+          "name": "芹菜",
+          "amount": 250,
+          "unit": "克",
+          "grams": 250
+        },
+        {
+          "name": "猪瘦肉",
+          "amount": 150,
+          "unit": "克",
+          "grams": 150
+        }
+      ],
+      "optional_aromatics": [
+        "蒜"
+      ],
+      "basic_seasonings": [
+        "油",
+        "盐",
+        "生抽",
+        "料酒",
+        "淀粉"
+      ],
+      "special_seasonings": [],
+      "allergens": [
+        "大豆",
+        "麸质",
+        "酒精"
+      ],
+      "diet": {
+        "vegetarian": "no",
+        "vegan": "no",
+        "pork": "contains",
+        "beef": "free",
+        "alcohol": "contains"
+      },
+      "spicy": {
+        "level": 0,
+        "optional": false
+      },
+      "cookware": [
+        "炒锅"
+      ],
+      "tags": [
+        "快手",
+        "下饭",
+        "家常"
+      ],
+      "steps": [
+        "芹菜切段；猪瘦肉切丝，加生抽、料酒、淀粉抓匀腌10分钟。",
+        "热锅少油，下肉丝滑炒至变色盛出。",
+        "锅留底油爆香蒜末，下芹菜大火炒1-2分钟，倒回肉丝，加盐翻匀出锅。"
+      ]
+    },
+    {
+      "id": "r054",
+      "name": "韭菜炒蛋",
+      "category": "蛋类/快手菜",
+      "prep_time_min": 10,
+      "difficulty": "极简",
+      "base_servings": 2,
+      "main_ingredients": [
+        {
+          "name": "韭菜",
+          "amount": 200,
+          "unit": "克",
+          "grams": 200
+        },
+        {
+          "name": "鸡蛋",
+          "amount": 3,
+          "unit": "个",
+          "grams": 150
+        }
+      ],
+      "optional_aromatics": [],
+      "basic_seasonings": [
+        "油",
+        "盐"
+      ],
+      "special_seasonings": [],
+      "allergens": [
+        "蛋"
+      ],
+      "diet": {
+        "vegetarian": "yes",
+        "vegan": "no",
+        "pork": "free",
+        "beef": "free",
+        "alcohol": "free"
+      },
+      "spicy": {
+        "level": 0,
+        "optional": false
+      },
+      "cookware": [
+        "炒锅"
+      ],
+      "tags": [
+        "快手",
+        "省钱",
+        "一人食友好",
+        "家常"
+      ],
+      "steps": [
+        "韭菜洗净切段；鸡蛋打散加少许盐搅匀。",
+        "热锅倒油，倒入蛋液炒至刚定型盛出。",
+        "锅留底油，下韭菜大火快炒30秒，倒回鸡蛋，加盐翻匀出锅。"
+      ]
+    },
+    {
+      "id": "r055",
+      "name": "冬瓜丸子汤",
+      "category": "汤羹",
+      "prep_time_min": 25,
+      "difficulty": "简单",
+      "base_servings": 2,
+      "main_ingredients": [
+        {
+          "name": "冬瓜",
+          "amount": 300,
+          "unit": "克",
+          "grams": 300
+        },
+        {
+          "name": "猪肉末",
+          "amount": 150,
+          "unit": "克",
+          "grams": 150
+        }
+      ],
+      "optional_aromatics": [
+        "姜",
+        "小葱"
+      ],
+      "basic_seasonings": [
+        "盐",
+        "生抽",
+        "料酒",
+        "淀粉"
+      ],
+      "special_seasonings": [],
+      "allergens": [
+        "大豆",
+        "麸质",
+        "酒精"
+      ],
+      "diet": {
+        "vegetarian": "no",
+        "vegan": "no",
+        "pork": "contains",
+        "beef": "free",
+        "alcohol": "contains"
+      },
+      "spicy": {
+        "level": 0,
+        "optional": false
+      },
+      "cookware": [
+        "汤锅",
+        "电饭煲"
+      ],
+      "tags": [
+        "清淡",
+        "汤羹",
+        "家常"
+      ],
+      "steps": [
+        "猪肉末加生抽、料酒、淀粉、少许盐和姜末，顺一个方向搅打上劲；冬瓜去皮切片。",
+        "锅中加水和姜片烧开，转小火，把肉末挤成小丸子下锅。",
+        "丸子浮起后下冬瓜，煮8-10分钟至冬瓜透明，加盐调味，撒葱花。"
+      ]
+    },
+    {
+      "id": "r056",
+      "name": "南瓜蒸蛋",
+      "category": "蛋类/快手菜",
+      "prep_time_min": 25,
+      "difficulty": "简单",
+      "base_servings": 2,
+      "main_ingredients": [
+        {
+          "name": "南瓜",
+          "amount": 300,
+          "unit": "克",
+          "grams": 300
+        },
+        {
+          "name": "鸡蛋",
+          "amount": 2,
+          "unit": "个",
+          "grams": 100
+        }
+      ],
+      "optional_aromatics": [
+        "小葱"
+      ],
+      "basic_seasonings": [
+        "盐",
+        "生抽"
+      ],
+      "special_seasonings": [
+        "香油（可选）"
+      ],
+      "allergens": [
+        "蛋",
+        "大豆",
+        "麸质",
+        "芝麻"
+      ],
+      "diet": {
+        "vegetarian": "yes",
+        "vegan": "no",
+        "pork": "free",
+        "beef": "free",
+        "alcohol": "free"
+      },
+      "spicy": {
+        "level": 0,
+        "optional": false
+      },
+      "cookware": [
+        "蒸锅",
+        "电饭煲",
+        "微波炉"
+      ],
+      "tags": [
+        "清淡",
+        "老少皆宜",
+        "零失败",
+        "快手"
+      ],
+      "steps": [
+        "南瓜去皮切薄片，铺在盘底，水开后蒸8分钟至半软。",
+        "鸡蛋打散，加少许盐和1.5倍温水搅匀，撇去浮沫，倒在南瓜上。",
+        "盖上盘子，继续中火蒸10-12分钟至凝固，出锅淋少许生抽和香油（可选），撒葱花。"
+      ]
+    },
+    {
+      "id": "r057",
+      "name": "山药炒木耳",
+      "category": "素菜",
+      "prep_time_min": 15,
+      "difficulty": "极简",
+      "base_servings": 2,
+      "main_ingredients": [
+        {
+          "name": "山药",
+          "amount": 250,
+          "unit": "克",
+          "grams": 250
+        },
+        {
+          "name": "木耳（泡发）",
+          "amount": 100,
+          "unit": "克",
+          "grams": 100
+        },
+        {
+          "name": "胡萝卜",
+          "amount": 0.5,
+          "unit": "根",
+          "grams": 80
+        }
+      ],
+      "optional_aromatics": [
+        "蒜"
+      ],
+      "basic_seasonings": [
+        "油",
+        "盐",
+        "生抽",
+        "香醋"
+      ],
+      "special_seasonings": [],
+      "allergens": [
+        "大豆",
+        "麸质"
+      ],
+      "diet": {
+        "vegetarian": "yes",
+        "vegan": "yes",
+        "pork": "free",
+        "beef": "free",
+        "alcohol": "free"
+      },
+      "spicy": {
+        "level": 0,
+        "optional": false
+      },
+      "cookware": [
+        "炒锅"
+      ],
+      "tags": [
+        "素菜",
+        "清淡",
+        "快手",
+        "家常"
+      ],
+      "steps": [
+        "山药戴手套去皮切片，木耳撕小朵，胡萝卜切片；水开下山药、木耳、胡萝卜焯1分钟捞出。",
+        "热锅少油爆香蒜末，倒入焯好的食材大火翻炒1分钟。",
+        "加盐、生抽和几滴香醋翻匀，出锅。"
+      ]
+    },
+    {
+      "id": "r058",
+      "name": "凉拌藕片",
+      "category": "凉拌菜",
+      "prep_time_min": 15,
+      "difficulty": "极简",
+      "base_servings": 2,
+      "main_ingredients": [
+        {
+          "name": "莲藕",
+          "amount": 300,
+          "unit": "克",
+          "grams": 300
+        }
+      ],
+      "optional_aromatics": [
+        "蒜",
+        "小米辣",
+        "香菜"
+      ],
+      "basic_seasonings": [
+        "盐",
+        "生抽",
+        "香醋",
+        "白糖"
+      ],
+      "special_seasonings": [
+        "香油（可选）"
+      ],
+      "allergens": [
+        "大豆",
+        "麸质",
+        "芝麻"
+      ],
+      "diet": {
+        "vegetarian": "yes",
+        "vegan": "yes",
+        "pork": "free",
+        "beef": "free",
+        "alcohol": "free"
+      },
+      "spicy": {
+        "level": 0,
+        "optional": true
+      },
+      "cookware": [
+        "汤锅",
+        "电饭煲"
+      ],
+      "tags": [
+        "凉拌",
+        "解腻",
+        "快手",
+        "素菜"
+      ],
+      "steps": [
+        "莲藕去皮切薄片，水开下锅焯1-2分钟，捞出过凉水沥干。",
+        "碗中放蒜末、生抽、香醋、白糖、少许盐和香油（可选），搅匀。",
+        "藕片加调料汁拌匀，撒小米辣和香菜（可选），冷藏10分钟更入味。"
+      ]
+    },
+    {
+      "id": "r059",
+      "name": "电饭煲番茄肥牛/午餐肉焖饭",
+      "category": "主食/一锅出",
+      "prep_time_min": 30,
+      "difficulty": "极简",
+      "base_servings": 2,
+      "main_ingredients": [
+        {
+          "name": "大米",
+          "amount": 250,
+          "unit": "克",
+          "grams": 250
+        },
+        {
+          "name": "西红柿",
+          "amount": 1,
+          "unit": "个",
+          "grams": 180
+        },
+        {
+          "name": "肥牛卷/午餐肉/火腿肠",
+          "amount": 150,
+          "unit": "克",
+          "grams": 150
+        },
+        {
+          "name": "玉米粒/青豆/胡萝卜丁（可选）",
+          "amount": 80,
+          "unit": "克",
+          "grams": 80
+        }
+      ],
+      "optional_aromatics": [
+        "小葱"
+      ],
+      "basic_seasonings": [
+        "油",
+        "盐",
+        "生抽",
+        "黑胡椒粉"
+      ],
+      "special_seasonings": [
+        "蚝油（可选）"
+      ],
+      "allergens": [
+        "大豆",
+        "麸质"
+      ],
+      "diet": {
+        "vegetarian": "optional",
+        "vegan": "optional",
+        "pork": "optional",
+        "beef": "optional",
+        "alcohol": "free"
+      },
+      "spicy": {
+        "level": 0,
+        "optional": false
+      },
+      "cookware": [
+        "电饭煲"
+      ],
+      "tags": [
+        "一锅出",
+        "宿舍友好",
+        "免看火",
+        "主食"
+      ],
+      "steps": [
+        "大米淘洗干净放入电饭煲，加水比平时煮饭少约1/4（因为西红柿会出汁）。",
+        "西红柿去蒂划十字放在米中央，周围铺上切丁的午餐肉/肥牛卷和蔬菜丁。",
+        "淋1勺生抽、半勺食用油、少许盐和黑胡椒粉（可选半勺蚝油），按普通煮饭键。",
+        "跳保温后用饭勺戳破西红柿，将所有食材与米饭充分拌匀，撒葱花即成。"
+      ]
+    },
+    {
+      "id": "r060",
+      "name": "电饭煲香菇滑鸡焖饭",
+      "category": "鸡肉类/一锅出",
+      "prep_time_min": 35,
+      "difficulty": "极简",
+      "base_servings": 2,
+      "main_ingredients": [
+        {
+          "name": "鸡腿肉",
+          "amount": 250,
+          "unit": "克",
+          "grams": 250
+        },
+        {
+          "name": "香菇",
+          "amount": 6,
+          "unit": "朵",
+          "grams": 100
+        },
+        {
+          "name": "大米",
+          "amount": 250,
+          "unit": "克",
+          "grams": 250
+        }
+      ],
+      "optional_aromatics": [
+        "姜",
+        "小葱"
+      ],
+      "basic_seasonings": [
+        "生抽",
+        "老抽",
+        "料酒",
+        "盐",
+        "白糖",
+        "淀粉",
+        "油"
+      ],
+      "special_seasonings": [
+        "蚝油（可选）"
+      ],
+      "allergens": [
+        "大豆",
+        "麸质",
+        "酒精"
+      ],
+      "diet": {
+        "vegetarian": "no",
+        "vegan": "no",
+        "pork": "free",
+        "beef": "free",
+        "alcohol": "optional"
+      },
+      "spicy": {
+        "level": 0,
+        "optional": false
+      },
+      "cookware": [
+        "电饭煲"
+      ],
+      "tags": [
+        "一锅出",
+        "宿舍友好",
+        "免看火",
+        "下饭"
+      ],
+      "steps": [
+        "鸡腿肉切小块，加香菇片、姜丝、2勺生抽、半勺老抽、1勺料酒（可省）、少许盐糖、半勺淀粉和1勺油抓匀腌10分钟。",
+        "大米洗净入电饭煲，加比平时略少一点的清水，把腌好的鸡肉香菇连汁平铺在米上。",
+        "按标准煮饭键焖煮至跳保温，再焖5分钟开盖撒葱花拌匀即可。"
+      ]
+    },
+    {
+      "id": "r061",
+      "name": "凉拌内酯豆腐（皮蛋/榨菜版）",
+      "category": "凉拌菜",
+      "prep_time_min": 5,
+      "difficulty": "极简",
+      "base_servings": 2,
+      "main_ingredients": [
+        {
+          "name": "嫩豆腐/内酯豆腐",
+          "amount": 1,
+          "unit": "盒",
+          "grams": 300
+        },
+        {
+          "name": "皮蛋（可选，不放即纯素）",
+          "amount": 2,
+          "unit": "个",
+          "grams": 120
+        }
+      ],
+      "optional_aromatics": [
+        "蒜",
+        "小葱",
+        "香菜",
+        "小米辣"
+      ],
+      "basic_seasonings": [
+        "生抽",
+        "香醋",
+        "白糖",
+        "盐"
+      ],
+      "special_seasonings": [
+        "香油（可选）"
+      ],
+      "allergens": [
+        "大豆",
+        "麸质",
+        "蛋",
+        "芝麻"
+      ],
+      "diet": {
+        "vegetarian": "yes",
+        "vegan": "optional",
+        "pork": "free",
+        "beef": "free",
+        "alcohol": "free"
+      },
+      "spicy": {
+        "level": 0,
+        "optional": true
+      },
+      "cookware": [
+        "无需开火"
+      ],
+      "tags": [
+        "无需开火",
+        "5分钟",
+        "夏天",
+        "高蛋白"
+      ],
+      "steps": [
+        "内酯豆腐盒底四角剪小口倒扣在盘中划成厚片；如有皮蛋切瓣铺在豆腐上。",
+        "碗中放蒜末、葱花、2勺生抽、1勺香醋、少许白糖和盐（可选香油、小米辣、香菜）搅匀淋在豆腐上即可。"
+      ]
+    },
+    {
+      "id": "r062",
+      "name": "微波炉蒜蓉金针菇蒸虾仁/巴沙鱼",
+      "category": "海鲜类",
+      "prep_time_min": 10,
+      "difficulty": "极简",
+      "base_servings": 2,
+      "main_ingredients": [
+        {
+          "name": "虾仁/巴沙鱼柳",
+          "amount": 200,
+          "unit": "克",
+          "grams": 200
+        },
+        {
+          "name": "金针菇",
+          "amount": 1,
+          "unit": "把",
+          "grams": 200
+        }
+      ],
+      "optional_aromatics": [
+        "蒜",
+        "小葱",
+        "小米辣"
+      ],
+      "basic_seasonings": [
+        "生抽",
+        "料酒",
+        "盐",
+        "白糖",
+        "油"
+      ],
+      "special_seasonings": [
+        "蒸鱼豉油（可选，可用生抽替代）"
+      ],
+      "allergens": [
+        "甲壳类",
+        "鱼类",
+        "大豆",
+        "麸质",
+        "酒精"
+      ],
+      "diet": {
+        "vegetarian": "no",
+        "vegan": "no",
+        "pork": "free",
+        "beef": "free",
+        "alcohol": "optional"
+      },
+      "spicy": {
+        "level": 0,
+        "optional": true
+      },
+      "cookware": [
+        "微波炉",
+        "蒸锅",
+        "电饭煲"
+      ],
+      "tags": [
+        "无油烟",
+        "高蛋白",
+        "减脂",
+        "宿舍友好"
+      ],
+      "steps": [
+        "金针菇去根洗净铺在可微波深盘底；虾仁或巴沙鱼片加少许盐、半勺料酒（可省）抓匀铺在金针菇上。",
+        "蒜末加2勺生抽（或蒸鱼豉油）、1勺熟油、少许白糖和2勺清水调匀，淋在食材表面。",
+        "盖上微波炉保鲜膜（扎几个透气孔）或盘盖，微波炉高火叮4-5分钟（或上蒸锅/电饭煲蒸8分钟）至虾仁变红熟透，撒葱花即可。"
+      ]
+    },
+    {
+      "id": "r063",
+      "name": "空气炸锅蒜香烤鸡翅",
+      "category": "鸡肉类",
+      "prep_time_min": 25,
+      "difficulty": "极简",
+      "base_servings": 2,
+      "main_ingredients": [
+        {
+          "name": "鸡中翅",
+          "amount": 8,
+          "unit": "个",
+          "grams": 350
+        }
+      ],
+      "optional_aromatics": [
+        "蒜",
+        "姜"
+      ],
+      "basic_seasonings": [
+        "生抽",
+        "老抽",
+        "料酒",
+        "盐",
+        "白糖",
+        "黑胡椒粉",
+        "油"
+      ],
+      "special_seasonings": [
+        "蚝油（可选）"
+      ],
+      "allergens": [
+        "大豆",
+        "麸质",
+        "酒精"
+      ],
+      "diet": {
+        "vegetarian": "no",
+        "vegan": "no",
+        "pork": "free",
+        "beef": "free",
+        "alcohol": "optional"
+      },
+      "spicy": {
+        "level": 0,
+        "optional": false
+      },
+      "cookware": [
+        "空气炸锅"
+      ],
+      "tags": [
+        "空气炸锅",
+        "免看火",
+        "无油烟",
+        "硬菜"
+      ],
+      "steps": [
+        "鸡中翅洗净擦干，两面划两刀；加蒜末、姜丝、2勺生抽、半勺老抽、1勺料酒（可省）、少许盐糖、黑胡椒粉和半勺油抓匀腌15分钟。",
+        "拨掉表面蒜末（防烤焦），将鸡翅皮朝下放入空气炸锅，180℃烤10分钟。",
+        "翻面（皮朝上）再以180℃烤8-10分钟至表面金黄焦香、内部熟透即可。"
+      ]
+    },
+    {
+      "id": "r064",
+      "name": "空气炸锅椒盐脆皮土豆块",
+      "category": "素菜",
+      "prep_time_min": 20,
+      "difficulty": "极简",
+      "base_servings": 2,
+      "main_ingredients": [
+        {
+          "name": "土豆",
+          "amount": 2,
+          "unit": "个",
+          "grams": 350
+        }
+      ],
+      "optional_aromatics": [
+        "小葱"
+      ],
+      "basic_seasonings": [
+        "油",
+        "盐",
+        "黑胡椒粉",
+        "花椒粉"
+      ],
+      "special_seasonings": [],
+      "allergens": [],
+      "diet": {
+        "vegetarian": "yes",
+        "vegan": "yes",
+        "pork": "free",
+        "beef": "free",
+        "alcohol": "free"
+      },
+      "spicy": {
+        "level": 0,
+        "optional": true
+      },
+      "cookware": [
+        "空气炸锅"
+      ],
+      "tags": [
+        "空气炸锅",
+        "全素",
+        "少油",
+        "零失败"
+      ],
+      "steps": [
+        "土豆去皮切滚刀小块，用清水冲去表面淀粉后彻底擦干水分。",
+        "加1勺食用油、半小勺盐、少许黑胡椒粉和花椒粉抓拌均匀。",
+        "放入空气炸锅190℃烤15-18分钟，中途抽出晃动翻面一次，烤至外焦里糯撒葱花即成。"
+      ]
+    }
+  ]
+}

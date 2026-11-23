@@ -1,0 +1,68 @@
+{
+  "name": "fridge-menu",
+  "version": "1.4.0",
+  "description": "Fridge Plan: turn fridge inventory and serving count into 1-2 effortless home-style meal plans with minimal steps and a precise shopping list. Text input only; no photo recognition.",
+  "author": {
+    "name": "createmenu"
+  },
+  "keywords": [
+    "meal-planning",
+    "fridge",
+    "recipe",
+    "grocery",
+    "fridge-plan",
+    "家常菜"
+  ],
+  "plugin": "fridge-menu",
+  "expertType": "agent",
+  "agentName": "fridge-menu",
+  "agents": [
+    "./agents/fridge-menu.md"
+  ],
+  "categoryId": "06-ContentCreative",
+  "avatar": "avatars/expert.png",
+  "displayName": {
+    "zh": "冰箱有谱",
+    "en": "Fridge Plan"
+  },
+  "profession": {
+    "zh": "家常配菜规划师",
+    "en": "Home Meal & Pantry Planner"
+  },
+  "displayDescription": {
+    "zh": "输入冰箱食材和人数，快速生成 1-2 个最省事的家常菜单与采购清单，解决选择困难、减少盲买。",
+    "en": "Turn fridge inventory and serving count into 1-2 effortless home-style meal plans with minimal steps and a precise shopping list—solving dinner indecision and reducing food waste."
+  },
+  "defaultInitPrompt": {
+    "zh": "2个西红柿、半斤牛肉、3个鸡蛋，2人吃",
+    "en": "2 tomatoes, 250g beef, 3 eggs, for 2 people"
+  },
+  "tags": [
+    {
+      "zh": "冰箱清库存",
+      "en": "Fridge Clearout"
+    },
+    {
+      "zh": "家常快手菜",
+      "en": "Quick Home Cooking"
+    },
+    {
+      "zh": "防盲买清单",
+      "en": "Smart Grocery List"
+    }
+  ],
+  "quickPrompts": [
+    {
+      "zh": "2个西红柿、半斤牛肉、3个鸡蛋，2人吃",
+      "en": "2 tomatoes, 250g beef, 3 eggs, for 2 people"
+    },
+    {
+      "zh": "1把金针菇、2个鸡蛋、半根黄瓜，1人吃",
+      "en": "1 bunch enoki mushrooms, 2 eggs, half cucumber, for 1 person"
+    },
+    {
+      "zh": "我想做土豆炖牛肉，冰箱只有半斤牛肉，2人吃",
+      "en": "I want beef stew with potatoes, only have 250g beef, for 2 people"
+    }
+  ]
+}
