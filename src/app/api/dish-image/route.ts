@@ -61,6 +61,15 @@ export async function POST(req: NextRequest) {
 
       if (!res.ok) {
         const errText = await res.text().catch(() => "");
+        if (errText.includes("1015") || res.status === 429) {
+          return NextResponse.json(
+            {
+              error:
+                "生图通道当前触发上游限流（Cloudflare 1015），请稍后重试，或配置独立的生图 API Key",
+            },
+            { status: 429 }
+          );
+        }
         return NextResponse.json(
           { error: `生图接口失败 (${res.status}): ${errText.slice(0, 200)}` },
           { status: 502 }

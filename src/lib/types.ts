@@ -23,6 +23,26 @@ export interface MenuPlan {
   };
 }
 
+export interface ExcludedRecipeInfo {
+  recipeName: string;
+  reason: string;
+}
+
+export interface SafetyReport {
+  totalScanned: number;
+  passedCount: number;
+  excludedCount: number;
+  activeConstraints: string[];
+  excludedSamples: ExcludedRecipeInfo[];
+}
+
+export interface ValueSummary {
+  usedInventoryCount: number;
+  toBuyCount: number;
+  estimatedSavedYuan: number;
+  highlight: string;
+}
+
 export interface MenuResponse {
   assessment: {
     sufficient: boolean;
@@ -31,4 +51,8 @@ export interface MenuResponse {
   };
   plans: MenuPlan[];
   leftoverTip?: string;
+  safetyReport?: SafetyReport;
+  valueSummary?: ValueSummary;
+  adjustmentNote?: string;
+  isDemoFallback?: boolean;
 }
